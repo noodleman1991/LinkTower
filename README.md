@@ -10,7 +10,7 @@ Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) t
 
 Run this in your terminal:
 ```bash
-git clone github.com/mitchell-wallace/treelink++
+git clone github.com/mitchell-wallace/treelinkplusplus
 ```
 
 Then read Treelink's [Quick start guide](https://docs.treelink.app/guides/quick-start/) to get started with customisation. Most content from Treelink's docs is still aplicable to Treelink++.
