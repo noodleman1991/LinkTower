@@ -1,7 +1,7 @@
 ---
 const footerClasses = [
   // Base
-  "pt-12 text-center text-xs",
+  "align-middle text-sm block py-4 no-underline",
   
   // Light mode
   "text-lightModeForegroundMuted",
@@ -17,27 +17,27 @@ const footerClasses = [
 ].join(" ");
 ---
 
-<footer class={footerClasses}>
-  <hr class="opacity-50" />
+<footer class="pt-12 text-center">
+  <hr class="my-4 border-t-2 border-lightModeCustomLinkOutline dark:border-darkModeCustomLinkOutline" />
   <a 
     href="https://github.com/mitchell-wallace/treelinkplusplus" 
-    class="block py-4 no-underline text-lightModeForegroundMuted dark:text-darkModeForegroundMuted"
+    class={footerClasses}
   >
-    <span class="items-center gap-1.5">
+    <span class="items-center">
       <img
         src="/src/icons/link-lightmode.svg"
         alt="Link icon"
-        class="w-4 h-4 inline dark:hidden"
+        class="w-6 h-6 mx-1 inline dark:hidden"
         loading="lazy"
       />
       <img
         src="/src/icons/link-darkmode.svg"
         alt="Link icon"
-        class="w-4 h-4 inline hidden dark:inline"
+        class="w-6 h-6 mx-1 inline hidden dark:inline"
         loading="lazy"
       />
-      <span class="align-middle">
-        Built with Treelink++
+      <span>
+        Built with <span class="font-bold underline">Treelink++</span>
       </span>
     </span>
   </a>
