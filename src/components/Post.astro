@@ -69,23 +69,23 @@ const timeClasses = [
 ].join(" ");
 ---
 
-<li class={postItemClasses}>
-  <a href={`/blog/${post.slug}`} class="block">
+<li class={["h-96", postItemClasses].join(" ")}>
+  <a href={`/blog/${post.slug}`} class="block flex flex-col h-full">
     {post.data.image ? (
-      <img src={post.data.image.src} alt={post.data.imageAlt ?? post.data.title} class="w-full h-48 object-cover" />
+      <img src={post.data.image.src} alt={post.data.imageAlt ?? post.data.title} class="w-full h-48 object-cover flex-shrink-0" />
     ) : (
-      <div class={gradientClasses}></div>
+      <div class={["flex-shrink-0", gradientClasses].join(" ")}></div>
     )}
-    <div class="p-4">
-      <h2 class={titleClasses}
+    <div class="p-4 flex flex-col flex-grow overflow-hidden">
+      <h2 class={["line-clamp-2 overflow-hidden", titleClasses].join(" ")}
       >
         {post.data.title}
       </h2>
-      <p class={descriptionClasses}
+      <p class={["line-clamp-3 overflow-hidden", descriptionClasses].join(" ")}
       >
         {post.data.description}
       </p>
-      <time class={timeClasses}
+      <time class={["mt-auto pt-2", timeClasses].join(" ")}
       >
         {formatDate(post.data.publicationDate)}
       </time>
