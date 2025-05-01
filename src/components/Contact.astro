@@ -1,4 +1,6 @@
 ---
+import siteConfig from "@/siteConfig.json";
+
 // Button styles
 const buttonClasses = [
   // Base
@@ -64,9 +66,8 @@ const errorClasses = "text-red-400 text-sm mt-1";
   data-astro-reload
   novalidate>
   
-  <!-- Add your Web3Forms Access Key -->
-  <!-- https://web3forms.com/#start -->
-  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>
+  <!-- Web3Forms Access Key from siteConfig.json -->
+  <input type="hidden" name="access_key" value={siteConfig.web3FormsAccessKey} />
   
   <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
   <div class="mb-5">

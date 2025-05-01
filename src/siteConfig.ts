@@ -6,6 +6,8 @@ export interface SiteConfiguration {
   profilePicture: string;
   url: string;
   blog: boolean;
+  contactFormEnabled: boolean;
+  web3FormsAccessKey: string;
   iconLinks: IconLink[];
   customLinks: CustomLink[];
 }

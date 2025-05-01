@@ -29,6 +29,10 @@ const posts = (await getCollection("blog")).sort(
         </ul>
       ) : null
     }
-    <Contact />
+    {
+      SITE.contactFormEnabled ? (
+        <Contact />
+      ) : null
+    }
   </main>
 </BaseLayout>
