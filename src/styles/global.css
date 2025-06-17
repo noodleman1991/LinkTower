@@ -14,25 +14,4 @@
   [data-theme="treelink-dark"] {
     color-scheme: dark;
   }
-
-  /* html {
-    Set default theme to light, automatically switch to dark based on system preference
-    &[data-theme=""] {
-      @media (prefers-color-scheme: dark) {
-        @apply [&]:data-theme-treelink-dark;
-      }
-      @apply [&]:data-theme-treelink-light;
-    }
-  } */
-
-  /* Custom gradient backgrounds for the body */
-  :root {
-    /* Light mode gradient - equivalent to from-lightModeBackgroundFrom to-lightModeBackgroundTo */
-    background: linear-gradient(to bottom, rgb(245 249 253), rgb(230 236 244));
-  }
-
-  [data-theme="treelink-dark"] body {
-    /* Dark mode gradient - equivalent to from-darkModeBackgroundFrom to-darkModeBackgroundTo */
-    background: linear-gradient(to bottom, rgb(15 23 42), rgb(30 41 59));
-  }
 }

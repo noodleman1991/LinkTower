@@ -1,63 +1,32 @@
 ---
 import siteConfig from "@/siteConfig.json";
 
-// Button styles
+// Button styles - matching CustomLink component
 const buttonClasses = [
-  // Base
-  "flex items-center justify-center gap-2 rounded-full px-6 py-3 text-lg transition-colors w-full",
-
-  // Light mode
-  "bg-lightModeCustomLinkBackground",
-  "text-lightModeCustomLinkText",
-  "ring-2 ring-lightModeCustomLinkOutline",
-
-  // Hover
-  "hover:bg-lightModeCustomLinkBackgroundHover",
-  "hover:text-lightModeCustomLinkTextHover",
-  "hover:ring-lightModeCustomLinkOutlineHover",
-
-  // Dark mode
-  "dark:bg-darkModeCustomLinkBackground",
-  "dark:text-darkModeCustomLinkText",
-  "dark:ring-darkModeCustomLinkOutline",
-
-  // Dark Hover
-  "dark:hover:bg-darkModeCustomLinkBackgroundHover",
-  "dark:hover:text-darkModeCustomLinkTextHover",
-  "dark:hover:ring-darkModeCustomLinkOutlineHover"
+  // Base styling
+  "flex items-center justify-center gap-2 rounded-full px-6 py-3 text-lg transition-colors w-full ring-2",
+  
+  // DaisyUI semantic colors
+  "bg-base-100 text-base-content ring-base-300",
+  "hover:bg-base-200 hover:ring-base-content/20"
 ].join(" ");
 
 // Input field styles
 const inputClasses = [
-  // Base
-  "w-full px-4 py-3 rounded-lg outline-none focus:ring-4 transition-colors",
+  // Base styling
+  "w-full px-4 py-3 rounded-lg outline-none focus:ring-4 transition-colors border",
   
-  // Light mode
-  "bg-lightModeCustomLinkBackground",
-  "text-lightModeForeground",
-  "border border-lightModeCustomLinkOutline",
-  "placeholder:text-lightModeForegroundMuted",
-  
-  // Focus
-  "focus:border-lightModeCustomLinkOutlineHover",
-  "focus:ring-lightModeCustomLinkOutlineHover/20",
-  
-  // Dark mode
-  "dark:bg-darkModeCustomLinkBackground",
-  "dark:text-darkModeForeground",
-  "dark:border-darkModeCustomLinkOutline",
-  "dark:placeholder:text-darkModeForegroundMuted",
-  
-  // Dark Focus
-  "dark:focus:border-darkModeCustomLinkOutlineHover",
-  "dark:focus:ring-darkModeCustomLinkOutlineHover/20"
+  // DaisyUI semantic colors
+  "bg-base-100 text-base-content border-base-300",
+  "placeholder:text-base-content/60",
+  "focus:border-base-300/70 focus:ring-base-300/70"
 ].join(" ");
 
 // Error message styles
-const errorClasses = "text-red-400 text-sm mt-1";
+const errorClasses = "text-error text-sm mt-1";
 ---
 
-<h2 class="pt-8 sm:pt-12 pb-8 text-3xl font-semibold text-center">Contact</h2>
+<h2 class="pt-8 sm:pt-12 pb-8 text-3xl font-semibold text-center text-base-content">Contact</h2>
 <form
   action="https://api.web3forms.com/submit"
   method="POST"
@@ -134,7 +103,7 @@ const errorClasses = "text-red-400 text-sm mt-1";
 
   .is-invalid,
   .was-validated :invalid {
-    border-color: #dc3545;
+    border-color: oklch(var(--color-error));
   }
 </style>
 
@@ -171,11 +140,11 @@ const errorClasses = "text-red-400 text-sm mt-1";
           .then(async (response) => {
             let json = await response.json();
             if (response.status == 200) {
-              result.classList.add("text-green-500");
+              result.classList.add("text-success");
               result.innerHTML = json.message;
             } else {
               console.log(response);
-              result.classList.add("text-red-500");
+              result.classList.add("text-error");
               result.innerHTML = json.message;
             }
           })
