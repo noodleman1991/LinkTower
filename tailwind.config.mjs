@@ -11,6 +11,18 @@ export default {
     'bg-accent-100', 'bg-accent-200', 'ring-accent-300', 'hover:bg-accent-200', 'hover:ring-accent', 'text-accent', 'group-hover:text-accent-content',
     // Neutral colors
     'bg-neutral-100', 'bg-neutral-200', 'ring-neutral-300', 'hover:bg-neutral-200', 'hover:ring-neutral', 'text-neutral', 'group-hover:text-neutral-content',
+    
+    // CustomLink color variants - explicit inclusion for production builds
+    // Base colors
+    'bg-base-100', 'bg-base-200', 'ring-base-300', 'hover:bg-base-200', 'hover:ring-base-content/20', 'text-base-content', 'text-base-content/60', 'text-base-content/70',
+    // Primary colors for CustomLink
+    'hover:ring-primary-content/20', 'text-primary-content', 'text-primary-content/60', 'text-primary-content/70',
+    // Secondary colors for CustomLink
+    'hover:ring-secondary-content/20', 'text-secondary-content', 'text-secondary-content/60', 'text-secondary-content/70',
+    // Accent colors for CustomLink
+    'hover:ring-accent-content/20', 'text-accent-content', 'text-accent-content/60', 'text-accent-content/70',
+    // Neutral colors for CustomLink
+    'hover:ring-neutral-content/20', 'text-neutral-content', 'text-neutral-content/60', 'text-neutral-content/70',
   ],
   future: {
     hoverOnlyWhenSupported: true,

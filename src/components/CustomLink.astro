@@ -2,14 +2,68 @@
 import { Icon } from "astro-icon/components";
 const { link } = Astro.props;
 
+// Explicit color mapping to ensure all classes are visible to Tailwind during build
+const COLOR_MAP = {
+  base: {
+    bg: 'bg-base-100',
+    ring: 'ring-base-300',
+    hoverBg: 'hover:bg-base-200',
+    hoverRing: 'hover:ring-base-content/20',
+    text: 'text-base-content',
+    subtext: 'text-base-content/60',
+    icon: 'text-base-content/70'
+  },
+  primary: {
+    bg: 'bg-primary-100',
+    ring: 'ring-primary-300',
+    hoverBg: 'hover:bg-primary-200',
+    hoverRing: 'hover:ring-primary-content/20',
+    text: 'text-primary-content',
+    subtext: 'text-primary-content/60',
+    icon: 'text-primary-content/70'
+  },
+  secondary: {
+    bg: 'bg-secondary-100',
+    ring: 'ring-secondary-300',
+    hoverBg: 'hover:bg-secondary-200',
+    hoverRing: 'hover:ring-secondary-content/20',
+    text: 'text-secondary-content',
+    subtext: 'text-secondary-content/60',
+    icon: 'text-secondary-content/70'
+  },
+  accent: {
+    bg: 'bg-accent-100',
+    ring: 'ring-accent-300',
+    hoverBg: 'hover:bg-accent-200',
+    hoverRing: 'hover:ring-accent-content/20',
+    text: 'text-accent-content',
+    subtext: 'text-accent-content/60',
+    icon: 'text-accent-content/70'
+  },
+  neutral: {
+    bg: 'bg-neutral-100',
+    ring: 'ring-neutral-300',
+    hoverBg: 'hover:bg-neutral-200',
+    hoverRing: 'hover:ring-neutral-content/20',
+    text: 'text-neutral-content',
+    subtext: 'text-neutral-content/60',
+    icon: 'text-neutral-content/70'
+  }
+} as const;
+
+// Get color classes with fallback to base
+const colors = COLOR_MAP[link.color as keyof typeof COLOR_MAP] || COLOR_MAP.base;
+
+const linkClasses = link.image 
+  ? `flex flex-col rounded-3xl px-6 py-3 text-lg transition-colors ring-2 ${colors.bg} ${colors.text} ${colors.ring} ${colors.hoverBg} ${colors.hoverRing} overflow-hidden`
+  : `flex items-center gap-2 rounded-full px-6 py-3 text-lg transition-colors ring-2 ${colors.bg} ${colors.text} ${colors.ring} ${colors.hoverBg} ${colors.hoverRing}`;
+
 ---
 
 <li>
   <a
     href={link.url}
-    class={link.image 
-      ? "flex flex-col rounded-3xl px-6 py-3 text-lg transition-colors ring-2 bg-base-100 text-base-content ring-base-300 hover:bg-base-200 hover:ring-base-content/20 overflow-hidden" 
-      : "flex items-center gap-2 rounded-full px-6 py-3 text-lg transition-colors ring-2 bg-base-100 text-base-content ring-base-300 hover:bg-base-200 hover:ring-base-content/20"}
+    class={linkClasses}
   >
     {link.image && (
       <div class="mb-3 -mx-6 -mt-3 max-w-[calc(100%+3rem)]"
@@ -31,21 +85,21 @@ const { link } = Astro.props;
     <div class="flex items-center justify-between w-full">
       <Icon
         name={link.icon ?? "link"}
-        class="size-6 transition-colors text-base-content/70"
+        class={`size-6 transition-colors ${colors.icon}`}
       />
       <div class="flex-1 text-center">
         <p class="font-semibold">
           {link.title}
         </p>
         {link.description ? (
-          <p class="text-sm text-base-content/60">
+          <p class={`text-sm ${colors.subtext}`}>
             {link.description}
           </p>
         ) : null}
       </div>
       <Icon
         name={"lucide:chevron-right"}
-        class="size-6 transition-colors text-base-content/70"
+        class={`size-6 transition-colors ${colors.icon}`}
       />
     </div>
   </a>

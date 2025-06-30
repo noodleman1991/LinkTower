@@ -45,30 +45,28 @@
       "icon": "material-symbols:stylus-note-outline-rounded",
       "description": "I write about tech and programming mostly",
       "url": "https://johndoe.example.com/blog",
-      "image": "/src/assets/bamboo-square.jpg",
-      "imageAlt": "Bamboo"
+      "color": "primary"
     },
     {
       "id": "1728534585739",
       "title": "My Portfolio",
       "icon": "fluent-emoji-high-contrast:briefcase",
       "url": "https://johndoe.example.com/portfolio",
-      "image": "/src/assets/bamboo-tall.jpg",
-      "imageAlt": "Bamboo"
+      "color": "secondary"
     },
     {
       "id": "1728534585740",
       "title": "Recommended Books",
       "icon": "fluent-emoji-high-contrast:books",
       "url": "https://johndoe.example.com/books",
-      "image": "/src/assets/bamboo-wide.jpg",
-      "imageAlt": "Bamboo"
+      "color": "accent"
     },
     {
       "id": "1728534585741",
       "title": "My YouTube Channel",
       "icon": "lucide:youtube",
-      "url": "https://youtube.com"
+      "url": "https://youtube.com",
+      "color": "neutral"
     }
   ]
 }
