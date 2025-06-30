@@ -51,8 +51,7 @@
       "id": "1728534585739",
       "title": "My Portfolio",
       "icon": "fluent-emoji-high-contrast:briefcase",
-      "url": "https://johndoe.example.com/portfolio",
-      "color": "secondary"
+      "url": "https://johndoe.example.com/portfolio"
     },
     {
       "id": "1728534585740",
