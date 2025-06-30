@@ -10,27 +10,56 @@
     {
       "id": "1728534577188",
       "icon": "Youtube",
-      "url": "https://youtube.com"
+      "url": "https://youtube.com",
+      "color": "primary"
     },
     {
       "id": "1728534577186",
       "icon": "Github2",
-      "url": "https://github.com"
+      "url": "https://github.com",
+      "color": "secondary"
     },
     {
       "id": "1728534577187",
       "icon": "X",
-      "url": "https://x.com"
+      "url": "https://x.com",
+      "color": "accent"
     },
     {
       "id": "1728534577185",
       "icon": "Mail",
-      "url": "mailto:contact@johndoe.example.com"
+      "url": "mailto:contact@johndoe.example.com",
+      "color": "neutral"
     },
     {
       "id": "1728534577184",
       "icon": "lucide:link",
-      "url": "https://johndoe.example.com"
+      "url": "https://johndoe.example.com",
+      "color": "info"
+    },
+    {
+      "id": "1728534577184",
+      "icon": "lucide:link",
+      "url": "https://johndoe.example.com",
+      "color": "success"
+    },
+    {
+      "id": "1728534577184",
+      "icon": "lucide:link",
+      "url": "https://johndoe.example.com",
+      "color": "warning"
+    },
+    {
+      "id": "1728534577184",
+      "icon": "lucide:link",
+      "url": "https://johndoe.example.com",
+      "color": "error"
+    },
+    {
+      "id": "1728534577184",
+      "icon": "lucide:link",
+      "url": "https://johndoe.example.com",
+      "color": "base"
     }
   ],
   "customLinks": [

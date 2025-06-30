@@ -12,10 +12,13 @@ export interface SiteConfiguration {
   customLinks: CustomLink[];
 }
 
+type ColorVariant = 'base' | 'primary' | 'secondary' | 'accent' | 'neutral' | 'info' | 'success' | 'warning' | 'error';
+
 interface IconLink {
   id: string;
   icon: string;
   url: string;
+  color?: ColorVariant;
 }
 
 interface CustomLink {

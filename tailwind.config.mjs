@@ -1,6 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  safelist: [
+    // IconLink color variants - explicit inclusion for production builds
+    // Primary colors
+    'bg-primary-100', 'bg-primary-200', 'ring-primary-300', 'hover:bg-primary-200', 'hover:ring-primary', 'text-primary', 'group-hover:text-primary-content',
+    // Secondary colors
+    'bg-secondary-100', 'bg-secondary-200', 'ring-secondary-300', 'hover:bg-secondary-200', 'hover:ring-secondary', 'text-secondary', 'group-hover:text-secondary-content',
+    // Accent colors
+    'bg-accent-100', 'bg-accent-200', 'ring-accent-300', 'hover:bg-accent-200', 'hover:ring-accent', 'text-accent', 'group-hover:text-accent-content',
+    // Neutral colors
+    'bg-neutral-100', 'bg-neutral-200', 'ring-neutral-300', 'hover:bg-neutral-200', 'hover:ring-neutral', 'text-neutral', 'group-hover:text-neutral-content',
+    // Info colors
+    'bg-info-100', 'bg-info-200', 'ring-info-300', 'hover:bg-info-200', 'hover:ring-info', 'text-info', 'group-hover:text-info-content',
+    // Success colors
+    'bg-success-100', 'bg-success-200', 'ring-success-300', 'hover:bg-success-200', 'hover:ring-success', 'text-success', 'group-hover:text-success-content',
+    // Warning colors
+    'bg-warning-100', 'bg-warning-200', 'ring-warning-300', 'hover:bg-warning-200', 'hover:ring-warning', 'text-warning', 'group-hover:text-warning-content',
+    // Error colors
+    'bg-error-100', 'bg-error-200', 'ring-error-300', 'hover:bg-error-200', 'hover:ring-error', 'text-error', 'group-hover:text-error-content',
+  ],
   future: {
     hoverOnlyWhenSupported: true,
   },
