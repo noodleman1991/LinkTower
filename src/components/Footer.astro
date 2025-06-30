@@ -1,27 +1,12 @@
 ---
-const footerClasses = [
-  // Base
-  "align-middle text-sm block py-4 no-underline",
-  
-  // Light mode
-  "text-lightModeForegroundMuted",
-  
-  // Hover
-  "hover:text-lightModeForeground",
-  
-  // Dark mode
-  "dark:text-darkModeForegroundMuted",
-  
-  // Dark Hover
-  "dark:hover:text-darkModeForeground"
-].join(" ");
+
 ---
 
 <footer class="pt-12 text-center">
   <hr class="my-4 border-t-2 border-lightModeCustomLinkOutline dark:border-darkModeCustomLinkOutline" />
   <a 
     href="https://github.com/mitchell-wallace/treelinkplusplus" 
-    class={footerClasses}
+    class="align-middle text-sm block py-4 no-underline text-lightModeForegroundMuted hover:text-lightModeForeground dark:text-darkModeForegroundMuted dark:hover:text-darkModeForeground"
   >
     <span class="items-center">
       <img
