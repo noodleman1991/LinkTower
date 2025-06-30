@@ -1,6 +1,6 @@
-# Treelink++
+# MoriLink
 
-Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) that adds new features and improvements.
+MoriLink is a fork of [Treelink](https://github.com/trevortylerlee/treelink) that adds new features and improvements.
 
 - Refreshed UI: icons in links, blog preview cards, gradient background, new icon set
 - Optional contact form using [Web3Forms](https://web3forms.com)
@@ -10,15 +10,15 @@ Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) t
 
 Run this in your terminal:
 ```bash
-git clone github.com/mitchell-wallace/treelinkplusplus
-cd treelinkplusplus
+git clone github.com/mitchell-wallace/mori-link
+cd mori-link
 pnpm install
 pnpm run dev
 ```
 
 To use the contact form, you will need to get an access key from [Web3Forms](https://web3forms.com). Add the access key to the `siteConfig.json` file.
 
-Then read Treelink's [Quick start guide](https://docs.treelink.app/guides/quick-start/) to get started with customisation. Most content from Treelink's docs is still aplicable to Treelink++.
+Then read Treelink's [Quick start guide](https://docs.treelink.app/guides/quick-start/) to get started with customisation. Most content from Treelink's docs is still aplicable to MoriLink.
 
 ## ✨ Features
 
@@ -28,7 +28,6 @@ Then read Treelink's [Quick start guide](https://docs.treelink.app/guides/quick-
 - RSS and sitemap generation
 - Optional blog
 - Optional contact form using [Web3Forms](https://web3forms.com)
-- Web vitals: 100 100 100 100
 
 ## 🧞 Commands
 
@@ -47,7 +46,7 @@ To set up favicons for different devices, you can use [RealFaviconGenerator](htt
 
 ## 🎨 Custom Icons
 
-TreeLink++ uses [astro-icon](https://www.npmjs.com/package/astro-icon) for icons, integrating with the [Iconify](https://icon-sets.iconify.design/) collection and supporting local SVGs.
+MoriLink uses [astro-icon](https://www.npmjs.com/package/astro-icon) for icons, integrating with the [Iconify](https://icon-sets.iconify.design/) collection and supporting local SVGs.
 
 ### 🖼️ Local SVG Icons
 
@@ -55,7 +54,7 @@ You can use any SVGs as icons for your site. To do so, simply place custom SVGs 
 
 For example, if you have `src/icons/mylogo.svg`, use it like this:
 
-```json
+```jsonc
 {
   // ...
   "icon": "mylogo"
@@ -75,7 +74,7 @@ pnpm install @iconify-json/tabler
 
 Then use it like this:
 
-```json
+```jsonc
 {
   // ...
   "icon": "tabler:a-b"
