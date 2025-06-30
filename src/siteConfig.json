@@ -9,25 +9,25 @@
   "iconLinks": [
     {
       "id": "1728534577188",
-      "icon": "Youtube",
+      "icon": "youtube",
       "url": "https://youtube.com",
       "color": "primary"
     },
     {
       "id": "1728534577186",
-      "icon": "Github2",
+      "icon": "github2",
       "url": "https://github.com",
       "color": "secondary"
     },
     {
       "id": "1728534577187",
-      "icon": "X",
+      "icon": "x",
       "url": "https://x.com",
       "color": "accent"
     },
     {
       "id": "1728534577185",
-      "icon": "Mail",
+      "icon": "mail",
       "url": "mailto:contact@johndoe.example.com",
       "color": "neutral"
     },
