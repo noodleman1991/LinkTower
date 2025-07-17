@@ -30,23 +30,23 @@ const navLinkClasses = [
   "underline underline-offset-4",
   
   // Light mode
-  "text-base-content/70",
+  "text-primary-content/70",
   
   // Hover
-  "hover:text-base-content",
+  "hover:text-primary-content",
 ].join(" ");
 
 const titleClasses = [
   // Base
-  "mt-6 flex flex-wrap justify-center text-balance text-2xl font-medium",
+  "mt-6 mb-2 flex flex-wrap justify-center text-balance text-4xl font-bold",
   
   // Light mode
-  "text-base-content",
+  "text-primary-content",
 ].join(" ");
 
 const publishDateClasses = [
   // Base
-  "text-center text-sm",
+  "text-center text-md",
   
   // Light mode
   "text-base-content/70"
@@ -59,7 +59,7 @@ const publishDateClasses = [
     <a
       href="/"
       class={navLinkClasses}
-      >{`← ${SITE.name}`}</a
+      >{`← GO BACK`}</a
     >
     {
       entry.data.image && (
@@ -80,14 +80,14 @@ const publishDateClasses = [
     >
       Published {formatDate(entry.data.publicationDate)}
     </p>
-    <hr class="my-6 opacity-50" />
-    <div class="prose mx-auto mb-16 dark:prose-invert">
+    <!-- <br class="my-6 opacity-50 border-base-content" /> -->
+    <div class="prose mx-auto my-20 dark:prose-invert">
       <Content />
     </div>
     <a
       href="/"
       class={navLinkClasses}
-      >{`← ${SITE.name}`}</a
+      >{`← GO BACK`}</a
     >
   </main>
 </BaseLayout>

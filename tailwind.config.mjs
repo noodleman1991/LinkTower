@@ -31,6 +31,31 @@ export default {
   },
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            fontFamily: 'inherit',
+            maxWidth: '65ch',
+            h1: {
+              fontWeight: '300',
+              fontSize: '2.25em',
+              marginTop: '2.1em',
+              marginBottom: '0.75em',
+              lineHeight: 1.1,
+              color: 'var(--accent-200)',
+            },
+            p: {
+              fontFamily: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+              fontSize: '1.35em',
+              lineHeight: 1.5,
+              paddingBottom: '1em',
+            },
+            figcaption: {
+              fontSize: '1.1em',
+            }
+          },
+        },
+      },
       colors: {
           "primary-100": "oklch(from var(--primary-100) l c h / <alpha-value>)",
           "primary-200": "oklch(from var(--primary-200) l c h / <alpha-value>)",
