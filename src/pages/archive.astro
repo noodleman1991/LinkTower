@@ -9,6 +9,34 @@ const posts = await getCollection("blog");
 
 // Render all posts unsorted - client-side JS will handle sorting/filtering
 const allPosts = posts;
+
+// Styling classes matching the site's aesthetic
+const selectClasses = [
+  // Base styling with rounded corners
+  "px-4 py-3 rounded-lg outline-none focus:ring-4 transition-colors border",
+  
+  // DaisyUI semantic colors
+  "bg-base-100 text-base-content border-base-300",
+  "focus:border-base-300/70 focus:ring-base-300/70",
+  
+  // Custom select styling
+  "appearance-none bg-no-repeat bg-right pr-10",
+  "cursor-pointer"
+].join(" ");
+
+const inputClasses = [
+  // Base styling with rounded corners
+  "px-4 py-3 rounded-lg outline-none focus:ring-4 transition-colors border",
+  
+  // DaisyUI semantic colors
+  "bg-base-100 text-base-content border-base-300",
+  "placeholder:text-base-content/60",
+  "focus:border-base-300/70 focus:ring-base-300/70"
+].join(" ");
+
+const labelClasses = [
+  "text-sm font-medium text-base-content/80"
+].join(" ");
 ---
 
 <BaseLayout>
@@ -18,17 +46,30 @@ const allPosts = posts;
       <h1 class="text-3xl font-bold text-primary-content">Archive</h1>
       <p class="mt-1 text-base-content/70"><span id="archive-count">{allPosts.length}</span> posts</p>
 
-      <div id="archive-controls" class="mt-6 flex flex-wrap gap-4 items-center">
-        <label for="sort" class="text-sm font-medium text-base-content/80">Sort by</label>
-        <select id="sort" class="select select-bordered">
-          <option value="default">Default (featured & date)</option>
-          <option value="title-asc">Title (A–Z)</option>
-          <option value="title-desc">Title (Z–A)</option>
-          <option value="date-newest">Date (newest)</option>
-          <option value="date-oldest">Date (oldest)</option>
-        </select>
-        <label for="q" class="text-sm font-medium text-base-content/80">Filter</label>
-        <input id="q" placeholder="Search posts" class="input input-bordered w-64" />
+      <div id="archive-controls" class="mt-8 p-6 bg-base-100 rounded-2xl ring-2 ring-base-300/70 shadow-sm">
+        <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+          <div class="flex flex-col gap-2 min-w-0">
+            <label for="sort" class={labelClasses}>Sort by</label>
+            <div class="relative">
+              <select id="sort" class={selectClasses} style="background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 4 5\'><path fill=\'%23666\' d=\'M2 0L0 2h4zm0 5L0 3h4z\'/></svg>')">
+                <option value="default">Default (featured & date)</option>
+                <option value="title-asc">Title (A–Z)</option>
+                <option value="title-desc">Title (Z–A)</option>
+                <option value="date-newest">Date (newest)</option>
+                <option value="date-oldest">Date (oldest)</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="flex flex-col gap-2 flex-1 min-w-0">
+            <label for="q" class={labelClasses}>Filter posts</label>
+            <input 
+              id="q" 
+              placeholder="Search by title, content, or tags..." 
+              class={`${inputClasses} w-full`}
+            />
+          </div>
+        </div>
       </div>
     </section>
 
