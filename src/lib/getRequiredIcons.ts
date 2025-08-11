@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 // Always include these Lucide icons
 const DEFAULT_LUCIDE_ICONS = [
   // Icons used as part of site
-  'chevron-right', 'chevron-left', 'link', 'external-link'
+  'chevron-right', 'chevron-left', 'link', 'external-link', 'file-text', 'archive'
 ];
 
 // ESM-compatible __dirname

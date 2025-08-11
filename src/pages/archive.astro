@@ -73,7 +73,7 @@ const labelClasses = [
       </div>
     </section>
 
-    <ul id="archive-list" class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none px-0 py-8">
+    <ul id="archive-list" class="flex flex-col gap-4 list-none px-0 py-8">
       {allPosts.map((post) => (<Post post={post} />))}
     </ul>
     <script is:inline>

@@ -47,7 +47,7 @@ const colors = COLOR_MAP[link.color as keyof typeof COLOR_MAP] || COLOR_MAP.base
 
 const linkClasses = link.image 
   ? `flex flex-col rounded-3xl px-6 py-3 text-lg transition-colors ring-2 ${colors.bg} ${colors.text} ${colors.ring} ${colors.hoverBg} ${colors.hoverRing} overflow-hidden`
-  : `flex items-center gap-2 rounded-full px-6 py-3 text-lg transition-colors ring-2 ${colors.bg} ${colors.text} ${colors.ring} ${colors.hoverBg} ${colors.hoverRing}`;
+  : `flex items-center gap-2 rounded-3xl px-6 py-3 text-lg transition-colors ring-2 ${colors.bg} ${colors.text} ${colors.ring} ${colors.hoverBg} ${colors.hoverRing}`;
 
 ---
 
@@ -83,7 +83,7 @@ const linkClasses = link.image
           {link.title}
         </p>
         {link.description ? (
-          <p class={`text-sm ${colors.subtext}`}>
+          <p class={`text-sm line-clamp-4 mx-3 ${colors.subtext}`}>
             {link.description}
           </p>
         ) : null}

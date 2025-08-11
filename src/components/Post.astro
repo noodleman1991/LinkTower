@@ -1,31 +1,21 @@
 ---
 import { formatDate } from "@/lib/util";
+import CustomLink from "@/components/CustomLink.astro";
 
 const { post } = Astro.props;
 
-
+// Transform post data into CustomLink format
+const linkData = {
+  id: post.slug,
+  title: post.data.title,
+  description: `${formatDate(post.data.publicationDate)} • ${post.data.description}`,
+  url: `/blog/${post.slug}`,
+  icon: "lucide:file-text",
+  image: post.data.image?.src,
+  imageAlt: post.data.imageAlt ?? post.data.title
+};
 ---
 
-<li class="h-96 overflow-hidden rounded-lg shadow-md transition-colors ring-2 bg-base-100 ring-base-300 hover:bg-base-200 hover:ring-base-content/20" data-title={post.data.title} data-date={post.data.publicationDate.toISOString()} data-sort-order={post.data.sortOrder ?? ""}>
-  <a href={`/blog/${post.slug}`} class="block flex flex-col h-full">
-    {post.data.image ? (
-      <img src={post.data.image.src} alt={post.data.imageAlt ?? post.data.title} class="w-full h-48 object-cover flex-shrink-0" />
-    ) : (
-      <div class="flex-shrink-0 w-full h-48 bg-gradient-to-br from-base-200 to-base-300"></div>
-    )}
-    <div class="p-4 flex flex-col flex-grow overflow-hidden">
-      <h2 class="line-clamp-2 overflow-hidden text-xl font-semibold text-base-content"
-      >
-        {post.data.title}
-      </h2>
-      <p class="line-clamp-3 overflow-hidden mt-2 text-base-content/70"
-      >
-        {post.data.description}
-      </p>
-      <time class="mt-auto pt-2 mt-4 block text-sm text-base-content/60"
-      >
-        {formatDate(post.data.publicationDate)}
-      </time>
-    </div>
-  </a>
-</li>
+<div data-title={post.data.title} data-date={post.data.publicationDate.toISOString()} data-sort-order={post.data.sortOrder ?? ""}>
+  <CustomLink link={linkData} />
+</div>
