@@ -6,6 +6,8 @@ export interface SiteConfiguration {
   profilePicture: string;
   url: string;
   blog: boolean;
+  /** How many blog posts to show on the homepage */
+  blogHomePostLimit?: number;
   contactFormEnabled: boolean;
   web3FormsAccessKey: string;
   iconLinks: IconLink[];

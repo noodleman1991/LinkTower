@@ -1,45 +1,19 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content";
-
 import { SITE } from "@/siteConfig";
 
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
 import Content from "@/components/Content.astro";
-import Post from "@/components/Post.astro";
+import PostList from "@/components/PostList.astro";
 import SeoPage from "@/components/SeoPage.astro";
 import Contact from "@/components/Contact.astro";
-
-const posts = (await getCollection("blog")).sort(
-  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf(),
-);
 ---
 
 <BaseLayout>
   <SeoPage slot="head" />
   <main>
     <Content />
-    {
-      SITE.blog ? (
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none px-0 py-12">
-          {[...posts]
-            .sort((a, b) => {
-              const aOrder = a.data.sortOrder;
-              const bOrder = b.data.sortOrder;
-              if (aOrder != null && bOrder != null) {
-                return aOrder - bOrder;
-              }
-              if (aOrder != null) return -1;
-              if (bOrder != null) return 1;
-              return a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf();
-            })
-            .map((post: CollectionEntry<"blog">) => (
-              <Post post={post} />
-            ))}
-        </ul>
-      ) : null
-    }
+    { SITE.blog ? (<PostList />) : null }
     {
       SITE.contactFormEnabled ? (
         <Contact />

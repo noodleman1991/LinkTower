@@ -6,7 +6,7 @@ const { post } = Astro.props;
 
 ---
 
-<li class="h-96 overflow-hidden rounded-lg shadow-md transition-colors ring-2 bg-base-100 ring-base-300 hover:bg-base-200 hover:ring-base-content/20">
+<li class="h-96 overflow-hidden rounded-lg shadow-md transition-colors ring-2 bg-base-100 ring-base-300 hover:bg-base-200 hover:ring-base-content/20" data-title={post.data.title} data-date={post.data.publicationDate.toISOString()} data-sort-order={post.data.sortOrder ?? ""}>
   <a href={`/blog/${post.slug}`} class="block flex flex-col h-full">
     {post.data.image ? (
       <img src={post.data.image.src} alt={post.data.imageAlt ?? post.data.title} class="w-full h-48 object-cover flex-shrink-0" />

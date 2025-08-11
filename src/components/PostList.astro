@@ -1,0 +1,51 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import { SITE } from "@/siteConfig";
+
+import Post from "@/components/Post.astro";
+
+const posts = await getCollection("blog");
+
+const defaultSort = (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) => {
+  const aOrder = a.data.sortOrder;
+  const bOrder = b.data.sortOrder;
+  if (aOrder != null && bOrder != null) {
+    return aOrder - bOrder;
+  }
+  if (aOrder != null) return -1;
+  if (bOrder != null) return 1;
+  // Fallback: by publication date (oldest first)
+  return a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf();
+};
+
+const sorted = [...posts].sort(defaultSort);
+
+const limit = SITE.blogHomePostLimit ?? 5;
+const limited = sorted.slice(0, limit);
+const hasMore = sorted.length > limit;
+---
+
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none px-0 py-12">
+  {limited.map((post: CollectionEntry<"blog">) => (
+    <Post post={post} />
+  ))}
+  {hasMore && (
+    <li class="h-96 overflow-hidden rounded-lg shadow-md transition-colors ring-2 bg-base-100 ring-base-300 hover:bg-base-200 hover:ring-base-content/20">
+      <a href="/archive" class="block flex flex-col h-full">
+        <div class="flex-shrink-0 w-full h-48 bg-gradient-to-br from-base-200 to-base-300"></div>
+        <div class="p-4 flex flex-col flex-grow overflow-hidden">
+          <h2 class="line-clamp-2 overflow-hidden text-xl font-semibold text-base-content">
+            View all posts
+          </h2>
+          <p class="line-clamp-3 overflow-hidden mt-2 text-base-content/70">
+            Browse the full archive of posts.
+          </p>
+          <span class="mt-auto pt-2 mt-4 block text-sm text-base-content/60">
+            Open archive
+          </span>
+        </div>
+      </a>
+    </li>
+  )}
+</ul>

@@ -4,6 +4,7 @@
   "profilePicture": "/profile-picture.jpg",
   "url": "https://mitchellwallace.net",
   "blog": true,
+  "blogHomePostLimit": 5,
   "contactFormEnabled": true,
   "web3FormsAccessKey": "ac59967a-318d-4a10-b81e-dbdb45e9847a",
   "iconLinks": [

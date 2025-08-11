@@ -1,0 +1,77 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SeoPage from "@/components/SeoPage.astro";
+import Post from "@/components/Post.astro";
+
+const posts = await getCollection("blog");
+
+const defaultSort = (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) => {
+  const aOrder = a.data.sortOrder;
+  const bOrder = b.data.sortOrder;
+  if (aOrder != null && bOrder != null) {
+    return aOrder - bOrder;
+  }
+  if (aOrder != null) return -1;
+  if (bOrder != null) return 1;
+  // Fallback: by publication date (oldest first)
+  return a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf();
+};
+
+const sortParam = Astro.url.searchParams.get("sort") ?? "default";
+const q = (Astro.url.searchParams.get("q") ?? "").toLowerCase();
+
+const sorters: Record<string, (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) => number> = {
+  default: defaultSort,
+  "title-asc": (a, b) => a.data.title.localeCompare(b.data.title),
+  "title-desc": (a, b) => b.data.title.localeCompare(a.data.title),
+  "date-oldest": (a, b) => a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf(),
+  "date-newest": (a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf(),
+};
+
+const activeSort = sorters[sortParam] ?? sorters.default;
+const filtered = q
+  ? posts.filter((p) => {
+      const hay = [
+        p.data.title,
+        p.data.description,
+        ...(p.data.tags ?? []),
+      ]
+        .join(" ")
+        .toLowerCase();
+      return hay.includes(q);
+    })
+  : posts;
+const sorted = [...filtered].sort(activeSort);
+---
+
+<BaseLayout>
+  <SeoPage slot="head" title="Archive" description="Browse all posts" />
+  <main>
+    <section class="py-8">
+      <h1 class="text-3xl font-bold text-primary-content">Archive</h1>
+      <p class="mt-1 text-base-content/70">{sorted.length} posts</p>
+
+      <form method="get" class="mt-6 flex flex-wrap gap-4 items-center">
+        <label for="sort" class="text-sm font-medium text-base-content/80">Sort by</label>
+        <select id="sort" name="sort" class="select select-bordered" onChange="this.form.submit()">
+          <option value="default" selected={sortParam === "default"}>Default (featured & date)</option>
+          <option value="title-asc" selected={sortParam === "title-asc"}>Title (A–Z)</option>
+          <option value="title-desc" selected={sortParam === "title-desc"}>Title (Z–A)</option>
+          <option value="date-newest" selected={sortParam === "date-newest"}>Date (newest)</option>
+          <option value="date-oldest" selected={sortParam === "date-oldest"}>Date (oldest)</option>
+        </select>
+        <label for="q" class="text-sm font-medium text-base-content/80">Filter</label>
+        <input id="q" name="q" value={q} placeholder="Search posts" class="input input-bordered w-64" />
+        <noscript>
+          <button type="submit" class="btn btn-primary">Apply</button>
+        </noscript>
+      </form>
+    </section>
+
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none px-0 py-8">
+      {sorted.map((post) => (<Post post={post} />))}
+    </ul>
+  </main>
+</BaseLayout>
