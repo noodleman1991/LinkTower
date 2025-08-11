@@ -24,7 +24,7 @@ However, over time I realised that the venom of the snakes had been neutralised,
 
 Then finally before I woke, I drew out a very long snake, so long that I wondered perhaps if it had no end. Yet even this mighty serpent was of none effect! It was no match for the purifying power present in my bedroom.
 
---
+---
 
 God will cleanse my dreams from the attacks of the enemy. No power of evil can overcome this. It will not be permitted. For the sake of the people I must know what I can trust, and in this I can trust. This work has already started, within the past year. I believe my memories of dreams that were not of God have been held from me; I may have experienced them in the moment, but I was not permitted to remember them any longer, that they may not detract from the authority of that which God has revealed.
 
