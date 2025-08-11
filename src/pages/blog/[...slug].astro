@@ -57,6 +57,7 @@ const publishDateClasses = [
   <SeoPost slot="head" entry={entry} />
   <main>
     <a
+      id="back-link"
       href="/"
       class={navLinkClasses}
       >{`← GO BACK`}</a
@@ -85,9 +86,23 @@ const publishDateClasses = [
       <Content />
     </div>
     <a
+      id="back-link-bottom"
       href="/"
       class={navLinkClasses}
       >{`← GO BACK`}</a
     >
+    
+    <script is:inline>
+      // Navigation via URL param: if ?ref=archive, GO BACK links point to /archive; else to /
+      (function() {
+        const backLinks = document.querySelectorAll('#back-link, #back-link-bottom');
+        const params = new URLSearchParams(window.location.search);
+        const ref = params.get('ref');
+        const target = ref === 'archive' ? '/archive' : '/';
+        backLinks.forEach(link => {
+          link.href = target;
+        });
+      })();
+    </script>
   </main>
 </BaseLayout>

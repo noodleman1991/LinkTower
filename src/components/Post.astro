@@ -2,18 +2,19 @@
 import { formatDate } from "@/lib/util";
 import CustomLink from "@/components/CustomLink.astro";
 
-const { post } = Astro.props;
+const { post, refFrom } = Astro.props as { post: any; refFrom?: string };
 
 // Transform post data into CustomLink format
 const linkData = {
   id: post.slug,
   title: post.data.title,
   description: `${formatDate(post.data.publicationDate)} • ${post.data.description}`,
-  url: `/blog/${post.slug}`,
+  url: `/blog/${post.slug}${refFrom ? `?ref=${encodeURIComponent(refFrom)}` : ""}`,
   icon: "lucide:file-text",
   image: post.data.image?.src,
   imageAlt: post.data.imageAlt ?? post.data.title
 };
+
 ---
 
 <div data-title={post.data.title} data-date={post.data.publicationDate.toISOString()} data-sort-order={post.data.sortOrder ?? ""}>

@@ -37,11 +37,28 @@ const inputClasses = [
 const labelClasses = [
   "text-sm font-medium text-base-content/80"
 ].join(" ");
+
+const navLinkClasses = [
+  // Base
+  "block py-3 text-lg font-medium uppercase",
+  "underline underline-offset-4",
+  
+  // Light mode
+  "text-primary-content/70",
+  
+  // Hover
+  "hover:text-primary-content",
+].join(" ");
 ---
 
 <BaseLayout>
   <SeoPage slot="head" title="Archive" description="Browse all posts" />
   <main>
+    <a
+      href="/"
+      class={navLinkClasses}
+      >{`← GO BACK`}</a
+    >
     <section class="py-8">
       <h1 class="text-3xl font-bold text-primary-content">Archive</h1>
       <p class="mt-1 text-base-content/70"><span id="archive-count">{allPosts.length}</span> posts</p>
@@ -74,7 +91,7 @@ const labelClasses = [
     </section>
 
     <ul id="archive-list" class="flex flex-col gap-4 list-none px-0 py-8">
-      {allPosts.map((post) => (<Post post={post} />))}
+      {allPosts.map((post) => (<Post post={post} refFrom="archive" />))}
     </ul>
     <script is:inline>
       // Client-side filtering and sorting
