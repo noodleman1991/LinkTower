@@ -2,8 +2,8 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import SeoPage from "@/components/SeoPage.astro";
-import Post from "@/components/Post.astro";
+import SeoPage from "@/components/head/SeoPage.astro";
+import Post from "@/components/sections/Post.astro";
 
 const posts = await getCollection("blog");
 

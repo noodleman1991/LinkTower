@@ -3,16 +3,16 @@ import { SITE } from "@/siteConfig";
 
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
-import Content from "@/components/Content.astro";
-import PostList from "@/components/PostList.astro";
-import SeoPage from "@/components/SeoPage.astro";
-import Contact from "@/components/Contact.astro";
+import HomeLayout from "@/layouts/HomeLayout.astro";
+import PostList from "@/components/sections/PostList.astro";
+import SeoPage from "@/components/head/SeoPage.astro";
+import Contact from "@/components/sections/Contact.astro";
 ---
 
 <BaseLayout>
   <SeoPage slot="head" />
   <main>
-    <Content />
+    <HomeLayout />
     { SITE.blog ? (<PostList />) : null }
     {
       SITE.contactFormEnabled ? (
