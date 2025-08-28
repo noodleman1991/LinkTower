@@ -42,7 +42,7 @@
       "description": "'I Am With You', featuring Jojo Fang",
       "url": "https://youtu.be/zQMMEtzH6hI",
       "icon": "youtube",
-      "color": "accent",
+      "color": "primary",
       "image": "song-mini.webp"
     },
     {
@@ -59,7 +59,8 @@
       "title": "Quotd: Share the word",
       "description": "Web app for sharing Bible verses",
       "url": "https://quotd.vercel.app/app",
-      "icon": "share"
+      "icon": "share",
+      "color": "neutral"
     },
     {
       "id": "1728534585741",
