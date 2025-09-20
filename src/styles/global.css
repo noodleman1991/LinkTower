@@ -77,3 +77,8 @@
     --bg-bottom: oklch(0.22 0.03 237);
   }
 }
+@layer components {
+  .prose hr {
+    @apply my-14 pb-6 border-t-2 border-base-content/15;
+  }
+}
