@@ -6,6 +6,7 @@ writtenDate: 2025-08-11
 firstSharedDate: 2025-08-11
 publicationDate: 2025-08-11
 # sortOrder:
+category: Uncategorised
 ---
 
 I had discovered a few dark dots in my ears; one spot on the hollow beside the ear canal and another on the ear lobe, the same on each side. They were dark, and about the size of spots of green mould as they begin to grow on old bread; perhaps 1-1.5mm in diameter.
@@ -22,8 +23,8 @@ Prior to this, I was showering at my mother's house, readying myself to go to ch
 
 I perceived that by listening to the wrong kind of music we could be inviting demons to live in our ears. We may think ourselves capable of cleaning our ears out, but we are not, and we require intervention by the Great Physician.
 
-As a child, in my bedroom, I listened to much of the wrong kind of music, especially various genres of metal and punk. The first time I attended a hardcore concert, my friend who was with me clearly perceived that there was a demonic presence there, though to my knowledge he had no prior experience with such things. I knew the exact feeling he was talking about but to my shame I chose to ignore it. 
+As a child, in my bedroom, I listened to much of the wrong kind of music, especially various genres of metal and punk. The first time I attended a hardcore concert, my friend who was with me clearly perceived that there was a demonic presence there, though to my knowledge he had no prior experience with such things. I knew the exact feeling he was talking about but to my shame I chose to ignore it.
 
-As I reflect back on my life, the times I spent the most time listening to the most stimulating music were the times I was most depressed and anxious and had the weakest spiritual life. This was regardless of whether that music was punk, metal, pop, hip hop, or any of the many genres of electronic dance music. Though different spirits attend them, and some songs have a stronger impact than others, the result on the spiritual life is similarly damaging. 
+As I reflect back on my life, the times I spent the most time listening to the most stimulating music were the times I was most depressed and anxious and had the weakest spiritual life. This was regardless of whether that music was punk, metal, pop, hip hop, or any of the many genres of electronic dance music. Though different spirits attend them, and some songs have a stronger impact than others, the result on the spiritual life is similarly damaging.
 
 The times I have had the strongest spiritual life have been associated with noble, dignified, spiritually uplifting music, the kind which awakens the intellect and not the lower passions. Though I initially had no taste for such music, as it did not produce the sensory stimulation I was so accustomed to, it has reliably brought my heart into harmony with the peace that surpasses all understanding.

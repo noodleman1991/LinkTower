@@ -6,6 +6,7 @@ writtenDate: 2025-08-11
 firstSharedDate: 2025-08-11
 publicationDate: 2025-08-11
 sortOrder: 3.0
+category: Personal Devotion
 ---
 
 Which animal had the greatest prayer experience? Not the Tigger who jumps around, but the Red Fox 2, a creature made to glide.

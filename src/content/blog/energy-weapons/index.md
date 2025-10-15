@@ -6,6 +6,7 @@ writtenDate: 2025-04-17
 firstSharedDate: 2025-04-17
 publicationDate: 2025-04-27
 # sortOrder:
+category: End Time Events
 ---
 
 Yesterday in my distress I had a burning question of my heart unto God, and I asked Him if He could show me something in answer to this. I do not remember the question, and I don't think this directly answers it, but I believe it is His response.

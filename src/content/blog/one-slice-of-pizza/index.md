@@ -5,7 +5,8 @@ dreamedDate: 2023-07-17
 writtenDate: 2023-11-12
 firstSharedDate: 2025-09-20
 publicationDate: 2025-09-20
-# sortOrder: 
+# sortOrder:
+category: End Time Events
 ---
 
 I hope this one is just me... But I need to remember interpretations belong to God. And as I think of it, I think of 2 dreams related to this, where prices in service stations became exorbitant. In the first of these, a bag of doritos cost me a few hundred dollars, and later I saw a great spiritual movement represented as a freight train. In the second of these, I saw a shopping complex in Australia which was wrapped with plastic cling wrap (which is used to protect and to preserve), yet they still fell into disrepair and abandonment, so that most by far went out of business.

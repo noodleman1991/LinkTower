@@ -6,7 +6,7 @@ writtenDate: 2022-05-29
 firstSharedDate: 2025-05-02
 publicationDate: 2025-05-02
 sortOrder: 4.0
-
+category: Uncategorised
 ---
 
 Last night I prayed that God would help me understand with confidence whether a dream or message was from Him or not. This dream that I had this morning is a response to that.
@@ -17,7 +17,7 @@ I was lying in bed, except my bed was in a different arrangement to how it is in
 
 One by one, I would take the tubes in my hands, and squeeze them, then out would come a small head like that of a snake, with mouth frozen wide open. Bodies of various lengths would then follow. Some tubes were already clean, others had a short snake, others had a longer snake. However, all of these snakes were lifeless as they were squeezed from the tubes, and their venom would be neutralised and turn to vapour as they were extracted.
 
-Before I had begun squeezing these tubes, I had called on my mother for help, because a girl was coming over soon; I liked her, but I was yet to publically admit her. I believed myself to be unwell, and that both a gas mask and face shield would be required. I believed the vapours from the snakes in my bed were a cumulative toxin that I needed to protect this girl from; I believed myself to be contagious and even harmful in my condition. 
+Before I had begun squeezing these tubes, I had called on my mother for help, because a girl was coming over soon; I liked her, but I was yet to publically admit her. I believed myself to be unwell, and that both a gas mask and face shield would be required. I believed the vapours from the snakes in my bed were a cumulative toxin that I needed to protect this girl from; I believed myself to be contagious and even harmful in my condition.
 
 However, over time I realised that the venom of the snakes had been neutralised, cleansed. There was a pool of water building up from the floor of my room, perhaps 30-40cm deep. The water was clean. The Spirit of God was present and active in this cleansing power.
 

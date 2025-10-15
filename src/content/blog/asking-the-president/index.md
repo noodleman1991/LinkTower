@@ -6,6 +6,7 @@ writtenDate: 2024-08-08
 firstSharedDate: 2025-05-02
 publicationDate: 2025-05-02
 sortOrder: 4.0
+category: The Church
 
 ---
 

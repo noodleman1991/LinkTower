@@ -6,6 +6,8 @@ writtenDate: 2025-07-11
 firstSharedDate: 2025-07-17
 publicationDate: 2025-07-17
 sortOrder: 5.0
+category: End Time Events
+
 ---
 
 We began our journey on a landmass, I know not how large. There was, as it were, a large bridge proceeding out from this land to cross over the waters. It was raised above the ground and above the waters, and by the Waters' edge one could pass by underneath this bridge, and there were a great many people lining up to cross this bridge. Later I was able to see that this bridge led not to another landmass but to a great ship; however I could not see this yet and only perceived that this was a bridge.

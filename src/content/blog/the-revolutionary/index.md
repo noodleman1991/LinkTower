@@ -5,7 +5,8 @@ dreamedDate: 2025-09-15
 writtenDate: 2025-09-15
 firstSharedDate: 2025-09-15
 publicationDate: 2025-09-15
-# sortOrder: 
+# sortOrder:
+category: Uncategorised
 ---
 
 In a large Adventist church in the Eastern United States, a revolutionary speaker arose. He preached a powerful message, and many who heard believed. This message spread and began to gain global attention, at which point opposition to this message began to arise. Somehow the name “DeepSeek” became associated with him.

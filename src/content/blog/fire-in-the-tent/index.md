@@ -7,6 +7,7 @@ writtenDate: 2022-05-29
 firstSharedDate: 2025-02-04
 publicationDate: 2025-04-27
 sortOrder: 1.0
+category: The Church
 ---
 
 This is the good part of a long and meandering dream. Yesterday someone asked me if I was a prophet and I didn't have a response, and he said like it would suck to be a prophet because then you'd have dreams and you'd wake up and you'd have to write them down.
