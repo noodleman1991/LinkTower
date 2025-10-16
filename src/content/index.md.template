@@ -8,6 +8,8 @@ publicationDate: 2025-xx-xx # used
 # sortOrder:
 draft: true # set to false to publish post
 category: Uncategorised
+# image: ./img.jpg
+# imageAlt: Image_Alt_Text_Goes_Here
 ---
 
 Post_Contents_Go_Here

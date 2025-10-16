@@ -164,7 +164,7 @@ const publishDateClasses = [
     </p>
     {entry.data.dreamedDate && (
       <p class={publishDateClasses}>
-        Dreamed on {formatDate(entry.data.dreamedDate)}
+        Written on {formatDate(entry.data.dreamedDate)}
       </p>
     )}
     {entry.data.revisionDate && (
@@ -218,13 +218,6 @@ const publishDateClasses = [
         document.addEventListener("astro:before-swap", () => controller.abort(), { once: true });
       })();
     </script>
-    
+
   </main>
 </BaseLayout>
-
-
-
-
-
-
-

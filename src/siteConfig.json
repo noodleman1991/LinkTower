@@ -1,7 +1,7 @@
 {
-  "name": "Mitchell Wallace",
-  "bio": "Songwriter • Preacher • Dreamer",
-  "profilePicture": "/profile-picture.jpg",
+  "name": "LinkTower",
+  "bio": "Links • Blog • Contact",
+  "profilePicture": "/profile-picture.png",
   "url": "https://mitchellwallace.net",
   "blog": true,
   "blogHomePostLimit": 3,
@@ -11,53 +11,23 @@
   "iconLinks": [
     {
       "id": "1728534577184",
-      "icon": "youtube",
-      "url": "https://www.youtube.com/@mitchellwallace"
+      "icon": "github",
+      "url": "https://github.com/mitchell-wallace"
     },
     {
       "id": "1728534577186",
-      "icon": "instagram",
-      "url": "https://www.instagram.com/mitch_tmv/"
-    },
-    {
-      "id": "1728534577187",
-      "icon": "tiktok",
-      "url": "https://www.tiktok.com/@mitch_tmv"
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/mitchell-wallace-dev/"
     },
     {
       "id": "1728534577188",
-      "icon": "facebook",
-      "url": "https://www.facebook.com/mitchsvids"
-    },
-    {
-      "id": "1728534577189",
-      "icon": "spotify",
-      "url": "https://open.spotify.com/artist/29VBDb5vQdlVKVzqAhXao6?si=r0g7MufdS0yt99XXtzdfpA"
+      "icon": "mail",
+      "url": "mailto:mitchell.wallace@outlook.com.au"
     }
   ],
   "customLinks": [
     {
-      "id": "1728534585738",
-      "title": "Latest music video",
-      "description": "'I Am With You', featuring Jojo Fang",
-      "url": "https://youtu.be/zQMMEtzH6hI",
-      "icon": "youtube",
-      "color": "primary",
-      "image": "song-mini.webp",
-      "imageAlt": "A youtube thumnail with a photo of Mitch and Jojo and the text 'I Am With You'"
-    },
-    {
       "id": "1728534585739",
-      "title": "How I met my wife",
-      "description": "Read the unbelievable story of how God led us",
-      "url": "https://lovestory.mitchellwallace.net/blog/story",
-      "icon": "read",
-      "color": "secondary",
-      "image": "our-story.webp",
-      "imageAlt": "A photo of Mitch and his wife at sunset"
-    },
-    {
-      "id": "1728534585740",
       "title": "Quotd: Share the word",
       "description": "Web app for sharing Bible verses",
       "url": "https://quotd.vercel.app/app",
@@ -65,6 +35,22 @@
       "color": "neutral",
       "image": "quotd-example.png",
       "imageAlt": "An image of a tree in the deser with the words 'The Lord is good, a stronghold in the day of trouble'"
+    },
+    {
+      "id": "1728534585740",
+      "title": "My Personal Website",
+      "description": "Find my socials and posts",
+      "url": "https://mitchellwallace.net",
+      "icon": "megaphone",
+      "color": "primary"
+    },
+    {
+      "id": "1728534585741",
+      "title": "My Dev Portfolio",
+      "description": "Check out my work",
+      "url": "https://mitchellwallace.dev",
+      "icon": "id-card",
+      "color": "secondary"
     }
   ]
 }

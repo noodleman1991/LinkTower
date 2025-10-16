@@ -2,13 +2,11 @@
 import { Image } from "astro:assets";
 
 import { SITE } from "@/siteConfig";
-
-import profilePicture from "@/assets/profile-picture.jpg";
 ---
 
 <div class="mt-8 py-4">
   <Image
-    src={profilePicture}
+    src={SITE.profilePicture}
     alt={SITE.name}
     height={256}
     width={256}
@@ -18,9 +16,7 @@ import profilePicture from "@/assets/profile-picture.jpg";
   />
   <h1 class="mt-4 text-center text-3xl font-semibold">{SITE.name}</h1>
   <p
-    class="mt-1 text-balance text-center text-md 
-           text-lightModeForegroundMuted 
-           dark:text-darkModeForegroundMuted"
+    class="text-md text-lightModeForegroundMuted dark:text-darkModeForegroundMuted mt-1 text-balance text-center"
   >
     {SITE.bio}
   </p>
