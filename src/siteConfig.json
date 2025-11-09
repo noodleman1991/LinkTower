@@ -13,19 +13,19 @@
       "id": "1728534577184",
       "icon": "github",
       "url": "https://github.com/mitchell-wallace",
-      "color": "tertiary"
+      "color": "neutral"
     },
     {
       "id": "1728534577186",
       "icon": "linkedin",
       "url": "https://www.linkedin.com/in/mitchell-wallace-dev/",
-      "color": "accent"
+      "color": "primary"
     },
     {
       "id": "1728534577188",
       "icon": "mail",
       "url": "mailto:mitchell.wallace@outlook.com.au",
-      "color": "primary"
+      "color": "secondary"
     }
   ],
   "customLinks": [
@@ -33,12 +33,11 @@
       "id": "1728534585739",
       "title": "Quotd: Share the word",
       "description": "Web app for sharing Bible verses",
-      "url": "https://quotd.vercel.app/app",
+      "url": "/blog/quotd",
       "icon": "share",
       "color": "neutral",
       "image": "quotd-example.png",
-      "imageAlt": "An image of a tree in the deser with the words 'The Lord is good, a stronghold in the day of trouble'",
-      "newTab": true
+      "imageAlt": "An image of a tree in the deser with the words 'The Lord is good, a stronghold in the day of trouble'"
     },
     {
       "id": "1728534585740",
@@ -62,7 +61,7 @@
       "description": "View my open source contributions",
       "url": "https://github.com/mitchell-wallace",
       "icon": "github",
-      "color": "primary-gradient",
+      "color": "neutral",
       "newTab": true
     },
     {
@@ -71,7 +70,7 @@
       "description": "Connect with me professionally",
       "url": "https://www.linkedin.com/in/mitchell-wallace-dev/",
       "icon": "linkedin",
-      "color": "secondary-gradient",
+      "color": "primary",
       "newTab": true
     },
     {
@@ -80,16 +79,7 @@
       "description": "Get in touch via email",
       "url": "mailto:mitchell.wallace@outlook.com.au",
       "icon": "mail",
-      "color": "tertiary-gradient"
-    },
-    {
-      "id": "1728534585745",
-      "title": "Fire Olympics Video",
-      "description": "Watch this awesome performance",
-      "url": "https://mitchellwallace.dev",
-      "icon": "play",
-      "color": "base",
-      "video": "/fire-olympics.mp4"
+      "color": "secondary"
     },
     {
       "id": "1728534585746",
@@ -106,24 +96,25 @@
       "description": "Get the official LinkTower logo",
       "url": "/favicon.svg",
       "icon": "download",
-      "color": "accent-gradient"
+      "color": "primary",
+      "download": true
     },
     {
       "id": "1728534585748",
-      "title": "Neutral Gradient Example",
-      "description": "Showcasing neutral gradient variant",
+      "title": "Neutral Example",
+      "description": "Showcasing neutral color variant",
       "url": "https://github.com/mitchell-wallace",
       "icon": "github",
-      "color": "neutral-gradient",
+      "color": "neutral",
       "newTab": true
     },
     {
       "id": "1728534585749",
-      "title": "Base Gradient Example",
-      "description": "Showcasing base gradient variant",
+      "title": "Base Example",
+      "description": "Showcasing base color variant",
       "url": "https://www.linkedin.com/in/mitchell-wallace-dev/",
       "icon": "linkedin",
-      "color": "base-gradient",
+      "color": "base",
       "newTab": true
     }
   ]
