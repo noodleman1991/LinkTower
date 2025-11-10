@@ -12,17 +12,20 @@
     {
       "id": "1728534577184",
       "icon": "github",
-      "url": "https://github.com/mitchell-wallace"
+      "url": "https://github.com/mitchell-wallace",
+      "color": "neutral"
     },
     {
       "id": "1728534577186",
       "icon": "linkedin",
-      "url": "https://www.linkedin.com/in/mitchell-wallace-dev/"
+      "url": "https://www.linkedin.com/in/mitchell-wallace-dev/",
+      "color": "neutral"
     },
     {
       "id": "1728534577188",
       "icon": "mail",
-      "url": "mailto:mitchell.wallace@outlook.com.au"
+      "url": "mailto:mitchell.wallace@outlook.com.au",
+      "color": "neutral"
     }
   ],
   "customLinks": [
@@ -30,11 +33,11 @@
       "id": "1728534585739",
       "title": "Quotd: Share the word",
       "description": "Web app for sharing Bible verses",
-      "url": "https://quotd.vercel.app/app",
+      "url": "/blog/quotd?ref=home",
       "icon": "share",
       "color": "neutral",
       "image": "quotd-example.png",
-      "imageAlt": "An image of a tree in the deser with the words 'The Lord is good, a stronghold in the day of trouble'"
+      "imageAlt": "An image of a tree in the desert with the words 'The Lord is good, a stronghold in the day of trouble'"
     },
     {
       "id": "1728534585740",
@@ -51,6 +54,16 @@
       "url": "https://mitchellwallace.dev",
       "icon": "id-card",
       "color": "secondary"
+    },
+    {
+      "id": "1728534585747",
+      "title": "Download LinkTower Logo",
+      "description": "Get the official LinkTower logo",
+      "url": "/profile-picture.png",
+      "icon": "image",
+      "color": "base",
+      "download": true,
+      "newTab": true
     }
   ]
 }

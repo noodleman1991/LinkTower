@@ -17,7 +17,7 @@ export interface SiteConfiguration {
   customLinks: CustomLink[];
 }
 
-type ColorVariant = "base" | "primary" | "secondary" | "accent" | "neutral";
+type ColorVariant = "base" | "primary" | "secondary" | "neutral";
 
 interface IconLink {
   id: string;
@@ -34,6 +34,10 @@ interface CustomLink {
   url: string;
   image?: string;
   imageAlt?: string;
+  video?: string;
+  color?: ColorVariant;
+  newTab?: boolean;
+  download?: boolean;
 }
 
 export const SITE: SiteConfiguration = {

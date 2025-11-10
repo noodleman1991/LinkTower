@@ -4,26 +4,15 @@ import typography from '@tailwindcss/typography';
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   safelist: [
-    // IconLink color variants - explicit inclusion for production builds
-    // Primary colors
+    // IconLink color variants
     'bg-primary-100', 'bg-primary-200', 'ring-primary-300', 'hover:bg-primary-200', 'hover:ring-primary', 'text-primary', 'group-hover:text-primary-content',
-    // Secondary colors
     'bg-secondary-100', 'bg-secondary-200', 'ring-secondary-300', 'hover:bg-secondary-200', 'hover:ring-secondary', 'text-secondary', 'group-hover:text-secondary-content',
-    // Accent colors
-    'bg-accent-100', 'bg-accent-200', 'ring-accent-300', 'hover:bg-accent-200', 'hover:ring-accent', 'text-accent', 'group-hover:text-accent-content',
-    // Neutral colors
     'bg-neutral-100', 'bg-neutral-200', 'ring-neutral-300', 'hover:bg-neutral-200', 'hover:ring-neutral', 'text-neutral', 'group-hover:text-neutral-content',
-    
-    // CustomLink color variants - explicit inclusion for production builds
-    // Base colors
+
+    // CustomLink color variants
     'bg-base-100', 'bg-base-200', 'ring-base-300', 'hover:bg-base-200', 'hover:ring-base-content/20', 'text-base-content', 'text-base-content/60', 'text-base-content/70',
-    // Primary colors for CustomLink
     'hover:ring-primary-content/20', 'text-primary-content', 'text-primary-content/60', 'text-primary-content/70',
-    // Secondary colors for CustomLink
     'hover:ring-secondary-content/20', 'text-secondary-content', 'text-secondary-content/60', 'text-secondary-content/70',
-    // Accent colors for CustomLink
-    'hover:ring-accent-content/20', 'text-accent-content', 'text-accent-content/60', 'text-accent-content/70',
-    // Neutral colors for CustomLink
     'hover:ring-neutral-content/20', 'text-neutral-content', 'text-neutral-content/60', 'text-neutral-content/70',
   ],
   future: {
@@ -46,9 +35,18 @@ export default {
             },
             p: {
               fontFamily: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
-              fontSize: '1.35em',
-              lineHeight: 1.5,
-              paddingBottom: '1em',
+              fontSize: '1.2em',
+              lineHeight: 1.6
+            },
+            ul: {
+              fontFamily: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+              fontSize: '1.2em',
+              lineHeight: 1.6
+            },
+            ol: {
+              fontFamily: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+              fontSize: '1.2em',
+              lineHeight: 1.6
             },
             figcaption: {
               fontSize: '1.1em',
@@ -67,10 +65,7 @@ export default {
           "secondary-300": "oklch(from var(--secondary-300) l c h / <alpha-value>)",
           "secondary-content": "oklch(from var(--secondary-content) l c h / <alpha-value>)",
 
-          "accent-100": "oklch(from var(--accent-100) l c h / <alpha-value>)",
-          "accent-200": "oklch(from var(--accent-200) l c h / <alpha-value>)",
-          "accent-300": "oklch(from var(--accent-300) l c h / <alpha-value>)",
-          "accent-content": "oklch(from var(--accent-content) l c h / <alpha-value>)",
+
 
           "neutral-100": "oklch(from var(--neutral-100) l c h / <alpha-value>)",
           "neutral-200": "oklch(from var(--neutral-200) l c h / <alpha-value>)",
