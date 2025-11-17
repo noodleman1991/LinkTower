@@ -3,6 +3,7 @@ title: "Why Less JavaScript Might Be More"
 description: "JavaScript has become the default solution for web interactivity, often used where HTML and CSS would suffice. Reconsidering when JavaScript is actually necessary leads to faster, more accessible websites."
 publicationDate: 2023-12-19
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["javascript", "performance", "progressive-enhancement", "html", "css"]
 ---

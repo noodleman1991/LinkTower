@@ -3,6 +3,7 @@ title: "Digital Identity Systems and Revelation 13"
 description: "Revelation 13 describes a time when economic participation requires a mark—without which no one can buy or sell. As digital identity systems, biometric authentication, and cashless payment technologies rapidly advance, the prophetic implications demand careful consideration."
 publicationDate: 2024-12-03
 draft: false
+hidden: false
 category: "Prophecy & Current Events"
 tags: ["prophecy", "revelation-13", "mark-of-the-beast", "digital-identity", "end-times", "sda"]
 ---

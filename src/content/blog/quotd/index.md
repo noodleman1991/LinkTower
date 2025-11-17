@@ -2,6 +2,8 @@
 title: "Quotd: Share the Word"
 description: "A web application for sharing beautiful Bible verses with friends and family"
 publicationDate: 2025-11-09
+draft: false
+hidden: true
 image: quotd-feature-1.png
 imageAlt: "An image of a tree in the desert with the words 'The Lord is good, a stronghold in the day of trouble'"
 tags: ["projects", "web app", "faith"]

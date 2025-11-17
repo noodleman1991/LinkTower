@@ -3,6 +3,7 @@ title: "The Case for Semantic HTML in Modern Web Development"
 description: "While frameworks and component libraries dominate modern development, semantic HTML remains foundational to accessible, maintainable, and SEO-friendly websites. Understanding and using proper HTML elements is a core skill that pays dividends throughout a project's lifecycle."
 publicationDate: 2023-11-08
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["html", "semantics", "accessibility", "web-standards", "best-practices"]
 ---

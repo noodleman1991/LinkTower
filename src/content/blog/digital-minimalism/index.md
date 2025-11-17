@@ -3,6 +3,7 @@ title: "Digital Minimalism: Principles and Practices"
 description: "Digital minimalism applies minimalist philosophy to technology use—intentionally choosing tools that serve genuine values while eliminating digital clutter and distraction."
 publicationDate: 2023-10-30
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["digital-minimalism", "intentionality", "minimalism", "focus", "simplicity"]
 ---

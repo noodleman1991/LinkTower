@@ -3,6 +3,7 @@ title: "Why the Sabbath Matters More Than Ever in the Digital Age"
 description: "In an always-on, hyper-connected world, the ancient practice of Sabbath rest has never been more counter-cultural—or more necessary. The fourth commandment offers divine wisdom for digital age survival and flourishing."
 publicationDate: 2025-03-07
 draft: false
+hidden: false
 category: "Sabbath & Rest"
 tags: ["sabbath", "fourth-commandment", "rest", "digital-age", "sda", "worship"]
 ---

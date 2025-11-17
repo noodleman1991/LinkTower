@@ -3,6 +3,7 @@ title: "The Four Types of Digital Clutter"
 description: "Digital clutter accumulates in multiple forms, each creating friction and mental overhead. Identifying and addressing all four types enables digital clarity."
 publicationDate: 2023-07-14
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["digital-clutter", "organization", "minimalism", "productivity"]
 ---

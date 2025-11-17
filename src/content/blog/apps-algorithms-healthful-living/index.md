@@ -3,6 +3,7 @@ title: "Apps and Algorithms: Tools for Healthful Living"
 description: "Technology offers numerous applications claiming to support healthful living—fitness trackers, nutrition apps, meditation guides, sleep monitors. From a health message perspective, when do these tools genuinely support wellness, and when do they become substitutes for natural remedies?"
 publicationDate: 2024-05-28
 draft: false
+hidden: false
 category: "Health & Wellness"
 tags: ["health-message", "apps", "technology", "digital-tools", "wellness", "sda"]
 ---

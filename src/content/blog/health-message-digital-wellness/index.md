@@ -3,6 +3,7 @@ title: "The Health Message Meets Digital Wellness"
 description: "Seventh-day Adventists have championed healthful living since the denomination's founding. As digital technology reshapes how people live, eat, sleep, and move, the health message's principles offer timely wisdom for digital age wellness."
 publicationDate: 2024-04-11
 draft: false
+hidden: false
 category: "Health & Wellness"
 tags: ["health-message", "digital-wellness", "health-reform", "lifestyle", "sda"]
 ---

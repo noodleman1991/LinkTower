@@ -3,6 +3,7 @@ title: "Dopamine, Algorithms, and Behavioral Design"
 description: "Digital platforms combine behavioral psychology insights with algorithmic optimization to create habit-forming products. Understanding this combination reveals the scope of manipulation."
 publicationDate: 2023-06-25
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["dopamine", "algorithms", "behavioral-design", "habit-formation", "psychology"]
 ---

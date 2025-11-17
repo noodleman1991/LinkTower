@@ -3,6 +3,7 @@ title: "AI and the Final Crisis: Understanding the Times"
 description: "Artificial intelligence is rapidly transforming society, raising profound questions about human identity, truth, and control. For students of prophecy, AI's trajectory intersects with biblical descriptions of end-time deception, authority centralization, and the final test of loyalty."
 publicationDate: 2025-02-18
 draft: false
+hidden: false
 category: "Prophecy & Current Events"
 tags: ["ai", "artificial-intelligence", "end-times", "prophecy", "deception", "sda"]
 ---

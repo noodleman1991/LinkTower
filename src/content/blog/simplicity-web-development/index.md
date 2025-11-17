@@ -3,6 +3,7 @@ title: "The Return to Simplicity in Web Development"
 description: "After years of increasing complexity, many developers are rediscovering the value of simple, straightforward approaches. Understanding when to embrace simplicity over sophistication leads to better outcomes."
 publicationDate: 2024-02-25
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["simplicity", "minimalism", "web-dev", "philosophy", "best-practices"]
 ---

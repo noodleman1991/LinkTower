@@ -3,6 +3,7 @@ title: "Building for the Long Term: Sustainable Web Architecture"
 description: "Web projects often prioritize short-term delivery over long-term maintainability. Sustainable architecture approaches ensure projects remain viable years after initial development."
 publicationDate: 2024-12-28
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["architecture", "maintainability", "sustainability", "web-dev", "best-practices"]
 ---

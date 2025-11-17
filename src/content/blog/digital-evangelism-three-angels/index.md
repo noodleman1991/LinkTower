@@ -3,6 +3,7 @@ title: "Digital Evangelism: Proclaiming the Three Angels' Messages Online"
 description: "The internet has become the modern marketplace of ideas, where billions gather daily. For Seventh-day Adventists commissioned to share the three angels' messages with every nation, kindred, tongue, and people, digital platforms offer unprecedented opportunities to fulfill this prophetic mandate."
 publicationDate: 2024-03-15
 draft: false
+hidden: false
 category: "Faith & Technology"
 tags: ["three-angels-messages", "evangelism", "social-media", "sda", "gospel"]
 ---

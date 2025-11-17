@@ -3,6 +3,7 @@ title: "Designing Technology Boundaries That Work"
 description: "Boundaries protect wellbeing, but poorly designed boundaries fail. Effective technology boundaries require specificity, environmental support, and self-compassion."
 publicationDate: 2024-08-08
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["boundaries", "habits", "self-control", "digital-wellness", "intentionality"]
 ---

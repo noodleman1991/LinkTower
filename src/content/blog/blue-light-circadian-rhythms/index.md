@@ -3,6 +3,7 @@ title: "Blue Light and Circadian Rhythms: A Health Reform Perspective"
 description: "Ellen White counseled regular sleep schedules and darkened bedrooms long before science understood circadian biology. Modern research confirms her wisdom while revealing how artificial light—especially blue light from screens—disrupts the rhythms God designed into creation."
 publicationDate: 2024-10-16
 draft: false
+hidden: false
 category: "Health & Wellness"
 tags: ["health-message", "sleep", "circadian-rhythms", "blue-light", "health-reform", "sda"]
 ---

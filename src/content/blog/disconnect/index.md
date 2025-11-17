@@ -1,12 +1,13 @@
 ---
 title: The Human Right to Disconnect
 description: In a culture that never stops, the ability to unplug has transformed from a mere luxury into a fundamental human right. We are constantly plugged in—our smartphones buzz with notifications, our laptops tether us to endless streams of emails, and social media platforms vie for our attention with algorithmic precision. This relentless connectivity, while revolutionary for communication and work, breeds overwhelm, anxiety, and a profound disconnection from what truly matters.
-dreamedDate: 2025-05-01 # used
-writtenDate: 2025-05-01 # not used
+conceptionDate: 2025-05-01 # not used
+writtenDate: 2025-05-01 # used
 firstSharedDate: 2025-05-01 # not used
 publicationDate: 2025-05-01 # used
 # sortOrder:
 draft: false # set to false to publish post
+hidden: false
 category: Uncategorised
 # image: ./disconnect.jpg
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age

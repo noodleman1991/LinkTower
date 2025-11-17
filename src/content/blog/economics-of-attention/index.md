@@ -3,6 +3,7 @@ title: "The Economics of Attention in Digital Platforms"
 description: "Attention has become the internet's most valuable commodity. Understanding the economic forces driving platform design reveals why digital wellness remains difficult."
 publicationDate: 2024-07-03
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["attention-economy", "business-models", "advertising", "tech-industry"]
 ---

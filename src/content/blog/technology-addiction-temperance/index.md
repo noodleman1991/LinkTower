@@ -3,6 +3,7 @@ title: "Technology Addiction Through the Lens of Temperance"
 description: "Temperance—moderation in helpful things, abstinence from harmful things—stands as a cornerstone of Adventist health philosophy. As technology addiction reaches epidemic proportions, applying temperance principles offers both diagnosis of the problem and pathway to freedom."
 publicationDate: 2025-04-12
 draft: false
+hidden: false
 category: "Health & Wellness"
 tags: ["temperance", "addiction", "digital-wellness", "health-message", "self-control", "sda"]
 ---

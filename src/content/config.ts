@@ -13,7 +13,7 @@ const blog = defineCollection({
       title: z.string(),
       description: z.string(),
       publicationDate: z.coerce.date(),
-      dreamedDate: z.coerce.date().optional(),
+      conceptionDate: z.coerce.date().optional(),
       writtenDate: z.coerce.date().optional(),
       revisionDate: z.coerce.date().optional(),
       image: image()
@@ -25,6 +25,7 @@ const blog = defineCollection({
       tags: z.array(z.string()).optional(),
       sortOrder: z.number().optional(),
       draft: z.boolean().default(false),
+      hidden: z.boolean().default(false),
       actionButtons: z.array(actionButtonSchema).optional(),
     }),
 });

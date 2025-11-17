@@ -39,6 +39,14 @@ export function isDraftEntry(entry: BlogEntry): boolean {
   return entry.data.draft === true;
 }
 
+export function isHiddenEntry(entry: BlogEntry): boolean {
+  return entry.data.hidden === true;
+}
+
+export function shouldDisplayEntry(entry: BlogEntry): boolean {
+  return !isDraftEntry(entry) && !isHiddenEntry(entry);
+}
+
 export function groupBlogEntries(entries: BlogEntry[]): Map<string, GroupedEntries> {
   const map = new Map<string, GroupedEntries>();
   for (const entry of entries) {
@@ -82,5 +90,24 @@ export function getLatestEntry(group: GroupedEntries): BlogEntry | undefined {
 }
 
 export function getBaseEntries(entries: BlogEntry[]): BlogEntry[] {
-  return entries.filter((entry) => !isRevisionEntry(entry) && !isDraftEntry(entry));
+  return entries.filter((entry) => !isRevisionEntry(entry) && shouldDisplayEntry(entry));
+}
+
+export function sortEntriesDefault(entries: BlogEntry[]): BlogEntry[] {
+  return [...entries].sort((a, b) => {
+    const aOrder = a.data.sortOrder;
+    const bOrder = b.data.sortOrder;
+
+    // Both have sortOrder - compare them
+    if (aOrder != null && bOrder != null) {
+      return aOrder - bOrder;
+    }
+    // Only a has sortOrder - a comes first
+    if (aOrder != null) return -1;
+    // Only b has sortOrder - b comes first
+    if (bOrder != null) return 1;
+
+    // Neither has sortOrder - sort by publication date (oldest first)
+    return a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf();
+  });
 }

@@ -3,6 +3,7 @@ title: "Attention Management vs Time Management"
 description: "Time management focuses on scheduling hours. Attention management recognizes that focus quality matters more than time quantity. Digital wellness requires managing attention, not just time."
 publicationDate: 2024-11-12
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["attention", "focus", "productivity", "time-management", "deep-work"]
 ---

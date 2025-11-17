@@ -1,12 +1,13 @@
 ---
 title: Tech and the Image of God
 description: In a world where technology advances at an unprecedented pace, the boundaries of what it means to be human are constantly tested. Artificial Intelligence (AI) can now mimic human conversation, create art, and even make decisions that appear ethical. Robotics push the limits of physical capability, while algorithms predict our behaviors with eerie accuracy. Yet, amidst this technological surge, a timeless concept from theology offers a profound counterpoint - the idea that humans are created in the image of God. This notion, rooted in ancient texts like Genesis, suggests that there is an intrinsic, divine essence within us—encompassing creativity, morality, and relational capacity—that no machine can replicate or download.
-dreamedDate: 2023-05-01 # used
-writtenDate: 2023-05-01 # not used
+conceptionDate: 2025-05-01 # not used
+writtenDate: 2025-05-01 # used
 firstSharedDate: 2023-05-01 # not used
 publicationDate: 2024-05-01 # used
 # sortOrder:
 draft: false # set to false to publish post
+hidden: false
 category: Uncategorised
 # image: ./disconnect.jpg
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age

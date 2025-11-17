@@ -3,6 +3,7 @@ title: "Technology and the Loud Cry: Amplifying the Final Warning"
 description: "The 'loud cry' of Revelation 18—the final, powerful proclamation of truth before Christ's return—will combine divine power with human instrumentality. In an age of instant global communication, technology stands ready to amplify this message to earth's remotest corners."
 publicationDate: 2025-01-10
 draft: false
+hidden: false
 category: "Prophecy & Current Events"
 tags: ["loud-cry", "prophecy", "end-times", "technology", "sda", "revelation"]
 ---

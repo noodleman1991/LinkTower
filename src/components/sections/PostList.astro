@@ -5,23 +5,10 @@ import { SITE } from "@/siteConfig";
 
 import Post from "@/components/sections/Post.astro";
 import CustomLink from "@/components/ui/CustomLink.astro";
-import { getBaseEntries } from "@/lib/blog";
+import { getBaseEntries, sortEntriesDefault } from "@/lib/blog";
 
 const posts = getBaseEntries(await getCollection("blog"));
-
-const defaultSort = (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) => {
-  const aOrder = a.data.sortOrder;
-  const bOrder = b.data.sortOrder;
-  if (aOrder != null && bOrder != null) {
-    return aOrder - bOrder;
-  }
-  if (aOrder != null) return -1;
-  if (bOrder != null) return 1;
-  // Fallback: by publication date (oldest first)
-  return a.data.publicationDate.valueOf() - b.data.publicationDate.valueOf();
-};
-
-const sorted = [...posts].sort(defaultSort);
+const sorted = sortEntriesDefault(posts);
 
 const limit = SITE.blogHomePostLimit ?? 5;
 const limited = sorted.slice(0, limit);

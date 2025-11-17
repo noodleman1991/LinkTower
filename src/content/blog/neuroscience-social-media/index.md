@@ -3,6 +3,7 @@ title: "The Neuroscience of Social Media Addiction"
 description: "Social media platforms exploit brain chemistry to create compulsive usage patterns. Understanding the neuroscience behind digital addiction reveals why willpower alone often fails."
 publicationDate: 2024-03-22
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["neuroscience", "social-media", "addiction", "dopamine", "psychology"]
 ---

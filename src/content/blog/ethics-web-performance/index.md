@@ -3,6 +3,7 @@ title: "The Ethics of Web Performance"
 description: "Web performance isn't just a technical concern—it's an ethical issue affecting access, inclusion, and environmental impact. Understanding performance's broader implications changes how developers approach optimization."
 publicationDate: 2023-05-17
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["performance", "ethics", "accessibility", "sustainability", "web-dev"]
 ---

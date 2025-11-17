@@ -153,9 +153,9 @@ const publishDateClasses = [
     >
       Published {formatDate(entry.data.publicationDate)}
     </p>
-    {entry.data.dreamedDate && (
+    {entry.data.writtenDate && (
       <p class={publishDateClasses}>
-        Written on {formatDate(entry.data.dreamedDate)}
+        Written on {formatDate(entry.data.writtenDate)}
       </p>
     )}
     {entry.data.revisionDate && (

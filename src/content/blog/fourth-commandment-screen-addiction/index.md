@@ -3,6 +3,7 @@ title: "The Fourth Commandment and Screen Addiction"
 description: "The Sabbath commandment calls believers to cease work, rest in God's provision, and remember creation. Yet screen addiction—compulsive device use that hijacks attention and fragments focus—undermines the very rest and presence the Sabbath offers."
 publicationDate: 2024-09-28
 draft: false
+hidden: false
 category: "Sabbath & Rest"
 tags: ["sabbath", "screen-time", "addiction", "digital-wellness", "fourth-commandment", "sda"]
 ---

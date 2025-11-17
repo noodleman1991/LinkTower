@@ -1,12 +1,13 @@
 ---
 title: Silence and Solitude in a Noisy Digital World
 description: In today’s hyper-connected society, silence and solitude have become rare commodities. Our smartphones ping with notifications at all hours, social media feeds demand our attention with endless scrolling, and streaming services fill every idle moment with sound and stimulation. The average person checks their phone 96 times a day, according to a 2023 study by Asurion, spending countless hours immersed in digital noise. This constant barrage leaves little room for stillness, drowning out the quiet spaces where we once found clarity and peace.
-dreamedDate: 2021-05-01 # used
-writtenDate: 2021-05-01 # not used
+conceptionDate: 2025-05-01 # not used
+writtenDate: 2025-05-01 # used
 firstSharedDate: 2021-05-01 # not used
 publicationDate: 2025-02-01 # used
 # sortOrder:
 draft: false # set to false to publish post
+hidden: false
 category: Uncategorised
 # image: ./disconnect.jpg
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age

@@ -3,6 +3,7 @@ title: "Web Accessibility: Building for Everyone"
 description: "Accessible websites aren't just legally compliant—they're better designed, more maintainable, and reach wider audiences. Understanding accessibility fundamentals benefits all users."
 publicationDate: 2023-08-14
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["accessibility", "a11y", "wcag", "inclusive-design", "web-standards"]
 ---

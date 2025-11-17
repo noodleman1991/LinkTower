@@ -3,6 +3,7 @@ title: "Time Stewardship in the Age of Infinite Scrolling"
 description: "Time is humanity's most democratic resource—everyone receives exactly 24 hours daily. Yet modern technology, particularly infinite scroll interfaces, systematically steals this precious commodity. Biblical stewardship principles offer wisdom for redeeming time in the digital age."
 publicationDate: 2025-05-02
 draft: false
+hidden: false
 category: "Faith & Technology"
 tags: ["stewardship", "time-management", "infinite-scroll", "productivity", "sda"]
 ---

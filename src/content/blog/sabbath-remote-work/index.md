@@ -3,6 +3,7 @@ title: "Sabbath Observance in the Age of Remote Work"
 description: "Remote work has blurred traditional boundaries between professional and personal life, creating both challenges and opportunities for Sabbath observance. For Seventh-day Adventists working from home, maintaining clear Sabbath boundaries requires intentional strategies."
 publicationDate: 2024-06-14
 draft: false
+hidden: false
 category: "Sabbath & Rest"
 tags: ["sabbath", "remote-work", "boundaries", "fourth-commandment", "sda"]
 ---

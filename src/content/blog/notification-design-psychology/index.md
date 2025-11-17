@@ -3,6 +3,7 @@ title: "How Notification Design Exploits Human Psychology"
 description: "Notifications aren't neutral alerts—they're carefully designed psychological triggers that exploit human attention and anxiety to maximize engagement."
 publicationDate: 2023-09-11
 draft: false
+hidden: false
 category: "Digital Wellness"
 tags: ["notifications", "psychology", "attention", "ux-design", "persuasive-tech"]
 ---

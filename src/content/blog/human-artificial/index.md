@@ -1,12 +1,13 @@
 ---
 title: Being Human in an Artificial World
 description: As we stand on the precipice of a technological revolution, the line between the natural and the artificial grows ever more indistinct. Artificial Intelligence (AI) systems can now compose music, write poetry, and even hold conversations that mimic human empathy. Robotics have advanced to the point where machines can perform surgeries with precision beyond human capability, while virtual assistants manage our daily lives with an intimacy that feels almost personal. Yet, amidst this rapid integration of the artificial into our world, a profound question emerges - What does it mean to be human in an era where machines can replicate—or even surpass—so many of our defining traits?
-dreamedDate: 2025-05-21 # used
-writtenDate: 2025-05-21 # not used
+conceptionDate: 2025-05-01 # not used
+writtenDate: 2025-05-01 # used
 firstSharedDate: 2025-05-21 # not used
 publicationDate: 2025-05-21 # used
 # sortOrder:
 draft: false # set to false to publish post
+hidden: false
 category: Uncategorised
 # image: ./disconnect.jpg
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age

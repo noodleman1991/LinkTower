@@ -3,6 +3,7 @@ title: "Static Site Generators: Performance Meets Simplicity"
 description: "In an era of complex web applications and JavaScript-heavy frameworks, static site generators offer a refreshing return to simplicity without sacrificing capability. Understanding their advantages reveals why many developers are choosing static over dynamic for content-focused sites."
 publicationDate: 2024-01-20
 draft: false
+hidden: false
 category: "Web Development"
 tags: ["static-sites", "performance", "jamstack", "astro", "web-dev"]
 ---

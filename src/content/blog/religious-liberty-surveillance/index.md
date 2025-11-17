@@ -3,6 +3,7 @@ title: "Religious Liberty in the Age of Digital Surveillance"
 description: "Freedom of worship has long been considered a fundamental human right. Yet as digital surveillance becomes ubiquitous and governments gain unprecedented ability to monitor belief and practice, religious liberty faces new threats—precisely as biblical prophecy predicted."
 publicationDate: 2024-07-19
 draft: false
+hidden: false
 category: "Prophecy & Current Events"
 tags: ["religious-liberty", "surveillance", "privacy", "persecution", "prophecy", "sda"]
 ---

@@ -3,6 +3,7 @@ title: "Building Faith Communities in Virtual Spaces"
 description: "The concept of church community has historically centered on physical gatherings. Yet as digital natives comprise growing percentages of the population and geographic mobility increases, virtual faith communities have emerged as legitimate expressions of Christian fellowship."
 publicationDate: 2024-11-05
 draft: false
+hidden: false
 category: "Faith & Technology"
 tags: ["community", "virtual-church", "fellowship", "digital-ministry", "sda"]
 ---

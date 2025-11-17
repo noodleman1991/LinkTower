@@ -3,6 +3,7 @@ title: "Social Media and the Everlasting Gospel: Reaching a Global Audience"
 description: "With over 5 billion social media users worldwide, these platforms represent the largest congregation ever assembled. For those commissioned to share the everlasting gospel with every nation, tribe, language, and people, social media offers both unprecedented opportunity and unique challenges."
 publicationDate: 2024-08-22
 draft: false
+hidden: false
 category: "Faith & Technology"
 tags: ["evangelism", "social-media", "gospel", "global-mission", "sda"]
 ---
