@@ -9,6 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
     "go-live": "pnpm install && pnpm run build && pnpm run deploy:win",
     "deploy": "./scripts/deploy.sh",
     "deploy:win": "bash -c \"./scripts/deploy.sh\""
@@ -32,9 +35,13 @@
     "@iconify-json/material-symbols": "^1.2.20",
     "@iconify-json/material-symbols-light": "^1.2.20",
     "@tailwindcss/typography": "^0.5.15",
+    "@vitest/ui": "^4.0.10",
     "daisyui": "^4.12.14",
+    "happy-dom": "^20.0.10",
+    "jsdom": "^27.2.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.8"
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "vitest": "^4.0.10"
   }
 }

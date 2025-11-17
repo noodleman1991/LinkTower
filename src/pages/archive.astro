@@ -5,7 +5,7 @@ import { Icon } from "astro-icon/components";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SeoPage from "@/components/head/SeoPage.astro";
 import Post from "@/components/sections/Post.astro";
-import { getBaseEntries } from "@/lib/blog";
+import { getBaseEntries } from "@/lib/postsService";
 
 const posts = getBaseEntries(await getCollection("blog"));
 

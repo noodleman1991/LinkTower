@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { SITE } from "@/siteConfig";
-import { getBaseEntries } from "@/lib/blog";
+import { getBaseEntries } from "@/lib/postsService";
 
 export async function GET(context) {
   const blog = getBaseEntries(await getCollection("blog"));
