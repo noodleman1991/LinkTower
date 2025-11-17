@@ -5,6 +5,7 @@ publicationDate: 2023-07-14
 draft: false
 hidden: false
 category: "Digital Wellness"
+sortOrder: 3
 tags: ["digital-clutter", "organization", "minimalism", "productivity"]
 ---
 

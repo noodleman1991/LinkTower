@@ -5,6 +5,7 @@ publicationDate: 2025-03-07
 draft: false
 hidden: false
 category: "Sabbath & Rest"
+sortOrder: 2
 tags: ["sabbath", "fourth-commandment", "rest", "digital-age", "sda", "worship"]
 ---
 
