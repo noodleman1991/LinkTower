@@ -12,6 +12,8 @@ category: Uncategorised
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age
 ---
 
+*This is an example blog post written by AI. Don't read into it too deeply :)*
+
 # What Does It Mean to Be Human in an Increasingly Artificial World?
 
 As we stand on the precipice of a technological revolution, the line between the natural and the artificial grows ever more indistinct. Artificial Intelligence (AI) systems can now compose music, write poetry, and even hold conversations that mimic human empathy. Robotics have advanced to the point where machines can perform surgeries with precision beyond human capability, while virtual assistants manage our daily lives with an intimacy that feels almost personal. Yet, amidst this rapid integration of the artificial into our world, a profound question emerges: What does it mean to be human in an era where machines can replicate—or even surpass—so many of our defining traits? This blog post embarks on a deep exploration of this question, examining how our identity, purpose, and creativity are both shaped and challenged by technology. Through a structured analysis of historical context, current trends, philosophical reflections, and future implications, we’ll seek to uncover the essence of humanity that persists beyond the reach of circuits and code.

@@ -12,7 +12,9 @@ category: Uncategorised
 # imageAlt: The Human Right to Disconnect: Finding Rest in a Connected Age
 ---
 
-# Tech and the Image of God: Why Our Humanity Can’t Be Downloaded
+*This is an example blog post written by AI. Don't read into it too deeply :)*
+
+# Tech and the Image of God: Why Our Humanity Can't Be Downloaded
 
 In a world where technology advances at an unprecedented pace, the boundaries of what it means to be human are constantly tested. Artificial Intelligence (AI) can now mimic human conversation, create art, and even make decisions that appear ethical. Robotics push the limits of physical capability, while algorithms predict our behaviors with eerie accuracy. Yet, amidst this technological surge, a timeless concept from theology offers a profound counterpoint: the idea that humans are created in the image of God. This notion, rooted in ancient texts like Genesis, suggests that there is an intrinsic, divine essence within us—encompassing creativity, morality, and relational capacity—that no machine can replicate or download. This blog post delves into the intersection of technology and theology, exploring what it means to bear the divine image and why our humanity resists reduction to mere code. Through a structured examination of theological foundations, technological challenges, and the enduring qualities that define us, we’ll uncover why, no matter how sophisticated technology becomes, there remains an unbridgeable gap between human and machine.
 

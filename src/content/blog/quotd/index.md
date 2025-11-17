@@ -14,6 +14,8 @@ actionButtons:
     newTab: true
 ---
 
+*This is an example blog post written by AI. Don't read into it too deeply :)*
+
 Quotd (pronounced "quoted") is a web application I built to make it easy to share meaningful Bible verses with others. The app allows you to create beautiful, shareable verse cards that you can send to friends and family.
 
 ## Features

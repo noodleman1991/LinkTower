@@ -19,6 +19,8 @@ actionButtons:
     newTab: true
 ---
 
+*This is an example blog post written by AI. Don't read into it too deeply :)*
+
 # The Human Right to Disconnect: Finding Rest in a Connected Age
 
 In a culture that never stops, the ability to unplug has transformed from a mere luxury into a fundamental human right. We are constantly plugged in—our smartphones buzz with notifications, our laptops tether us to endless streams of emails, and social media platforms vie for our attention with algorithmic precision. This relentless connectivity, while revolutionary for communication and work, breeds overwhelm, anxiety, and a profound disconnection from what truly matters. This blog post explores why disconnecting isn’t just an act of self-care but a necessary resistance against a hyper-connected age, essential for our well-being and relationships. Through a detailed examination of the challenges, consequences, and actionable solutions, we’ll reveal how reclaiming rest through disconnection is a vital practice for finding balance and restoring our humanity.
