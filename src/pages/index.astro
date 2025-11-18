@@ -13,7 +13,7 @@ import Contact from "@/components/sections/Contact.astro";
   <SeoPage slot="head" />
   <main>
     <HomeLayout />
-    { SITE.blog ? (<PostList />) : null }
+    { SITE.isBlogDisplayed ? (<PostList />) : null }
     {
       SITE.contactFormEnabled ? (
         <Contact />

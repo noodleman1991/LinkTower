@@ -3,7 +3,7 @@
   "bio": "Links • Blog • Contact",
   "profilePicture": "/profile-picture.png",
   "url": "https://mitchellwallace.net",
-  "blog": true,
+  "isBlogDisplayed": true,
   "blogHomePostLimit": 3,
   "contactFormEnabled": true,
   "web3FormsAccessKey": "ac59967a-318d-4a10-b81e-dbdb45e9847a",

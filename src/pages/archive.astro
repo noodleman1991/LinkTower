@@ -69,7 +69,7 @@ const navLinkClasses = [
           <div class="flex flex-col gap-2 min-w-0">
             <label for="sort" class={labelClasses}>Sort by</label>
             <div class="relative w-full">
-              <select id="sort" class={`${selectClasses} w-full pr-10`}>
+              <select id="sort" class={`${selectClasses} w-full pr-10`} data-testid="archive-sort">
                 <option value="default">Featured</option>
                 <option value="title-asc">Title (A–Z)</option>
                 <option value="title-desc">Title (Z–A)</option>
@@ -86,10 +86,11 @@ const navLinkClasses = [
           
           <div class="flex flex-col gap-2 flex-1 min-w-0">
             <label for="q" class={labelClasses}>Filter posts</label>
-            <input 
-              id="q" 
-              placeholder="Search by title, content, or tags..." 
+            <input
+              id="q"
+              placeholder="Search by title, content, or tags..."
               class={`${inputClasses} w-full`}
+              data-testid="archive-search"
             />
           </div>
         </div>

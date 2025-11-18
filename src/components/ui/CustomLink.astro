@@ -149,6 +149,7 @@ const linkClasses = link.image || link.video
     target={link.newTab ? "_blank" : undefined}
     rel={link.newTab ? "noopener noreferrer" : undefined}
     download={link.download ? "" : undefined}
+    data-testid="custom-link"
   >
     {link.image && (
       <div class="mb-3 -mx-6 -mt-3 max-w-[calc(100%+3rem)]"

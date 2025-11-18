@@ -5,7 +5,7 @@ export interface SiteConfiguration {
   bio: string;
   profilePicture: string;
   url: string;
-  blog: boolean;
+  isBlogDisplayed: boolean;
   /** How many blog posts to show on the homepage */
   blogHomePostLimit?: number;
   hideArchive?: boolean;

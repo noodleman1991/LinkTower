@@ -15,8 +15,8 @@ const limited = sorted.slice(0, limit);
 const hasMore = sorted.length > limit;
 ---
 
-<h2 class="pt-8 sm:pt-12 pb-8 text-3xl font-semibold text-center text-base-content">Posts</h2>
-<ul class="flex flex-col gap-4 list-none px-0 pb-12">
+<h2 class="pt-8 sm:pt-12 pb-8 text-3xl font-semibold text-center text-base-content" data-testid="posts-section">Posts</h2>
+<ul class="flex flex-col gap-4 list-none px-0 pb-12" data-testid="posts-list">
   {limited.map((post: CollectionEntry<"blog">) => (
     <Post post={post} refFrom="home" />
   ))}
