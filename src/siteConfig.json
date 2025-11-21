@@ -29,41 +29,53 @@
     }
   ],
   "customLinks": [
-    {
-      "id": "1728534585739",
-      "title": "Quotd: Share the word",
-      "description": "App for sharing Bible verses",
+        {
+      "title": "Carousel Link",
+      "description": "A link with image carousel",
       "url": "/blog/quotd?ref=home",
-      "icon": "share",
-      "color": "base",
-      "image": "quotd-example.png",
-      "imageAlt": "An image of a tree in the desert with the words 'The Lord is good, a stronghold in the day of trouble'"
+      "icon": "link",
+      "color": "neutral",
+      "carouselImages": [
+        "/quotd-example.png",
+        "/quotd-example-2.png",
+        "/quotd-example-3.png",
+        "/quotd-example-4.png"
+      ],
+      "carouselImageAlts": [
+        "Example image 1",
+        "Example image 2",
+        "Example image 3",
+        "Example image 4"
+      ]
     },
     {
-      "id": "1728534585740",
+      "title": "Link with looping video",
+      "url": "https://github.com/mitchell-wallace",
+      "video": "fire-olympics.mp4",
+      "color": "secondary"
+    },
+    {
       "title": "My Personal Website",
       "description": "Find my socials and posts",
       "url": "https://mitchellwallace.net",
       "newTab": true,
       "icon": "megaphone",
-      "color": "primary"
+      "color": "base"
     },
     {
-      "id": "1728534585741",
       "title": "My Dev Portfolio",
       "description": "Check out my work",
       "url": "https://mitchellwallace.dev",
       "newTab": true,
       "icon": "id-card",
-      "color": "secondary"
+      "color": "base"
     },
     {
-      "id": "1728534585747",
       "title": "Download LinkTower Logo",
       "description": "Get the official LinkTower logo",
       "url": "/profile-picture.png",
       "icon": "image",
-      "color": "neutral",
+      "color": "primary",
       "download": true,
       "newTab": true
     }

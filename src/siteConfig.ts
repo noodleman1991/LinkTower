@@ -21,14 +21,12 @@ export interface SiteConfiguration {
 type ColorVariant = "base" | "primary" | "secondary" | "neutral";
 
 interface IconLink {
-  id: string;
   icon: string;
   url: string;
   color?: ColorVariant;
 }
 
 interface CustomLink {
-  id: string;
   icon?: string;
   title: string;
   description?: string;
