@@ -9,12 +9,12 @@ export default defineConfig({
   redirects: {
     "/blog": "/",
   },
-  site: "https://example.treelink.com",
+  site: "https://linktower.mitchellwallace.net",
   integrations: [
-    tailwind(), 
-    sitemap(), 
+    tailwind(),
+    sitemap(),
     icon({
-      include: getRequiredIcons()
-    })
+      include: getRequiredIcons(),
+    }),
   ],
 });

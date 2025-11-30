@@ -15,7 +15,7 @@
     "test:run": "vitest run",
     "go-live": "pnpm install && pnpm run build && pnpm run deploy:win",
     "deploy": "./scripts/deploy.sh",
-    "deploy:win": "bash -c \"./scripts/deploy.sh\""
+    "deploy:win": "wsl \"./scripts/deploy.sh\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

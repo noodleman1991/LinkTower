@@ -2,7 +2,7 @@
   "name": "LinkTower",
   "bio": "Links • Blog • Contact",
   "profilePicture": "/profile-picture.png",
-  "url": "https://mitchellwallace.net",
+  "url": "https://linktower.mitchellwallace.net",
   "isBlogDisplayed": true,
   "blogHomePostLimit": 3,
   "contactFormEnabled": true,
@@ -29,7 +29,7 @@
     }
   ],
   "customLinks": [
-        {
+    {
       "title": "Carousel Link",
       "description": "A link with image carousel",
       "url": "/blog/quotd?ref=home",
@@ -51,7 +51,7 @@
     {
       "title": "Link with looping video",
       "url": "https://github.com/mitchell-wallace",
-      "video": "fire-olympics.mp4",
+      "video": "hashi.mp4",
       "color": "secondary"
     },
     {
