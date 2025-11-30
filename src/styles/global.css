@@ -71,8 +71,8 @@
     --base-300: oklch(0.41 0.03 237);
     --base-content: oklch(0.93 0 237);
 
-    --bg-top: oklch(0.17 0.02 237);
-    --bg-bottom: oklch(0.22 0.03 237);
+    --bg-top: oklch(0.17 0.01 237);
+    --bg-bottom: oklch(0.22 0.012 237);
   }
 }
 @layer components {
