@@ -1,8 +1,6 @@
-# mitchellwallace.net
+# LinkTower
 
-mitchellwallace.net is an instance of [LinkTower](https://github.com/mitchell-wallace/LinkTower).
-
-LinkTower is a portfolio-focused personal link hub built with Astro, forked from [Treelink](https://github.com/trevortylerlee/treelink) with enhanced features for developers and creatives.
+Linktower is like Linktree but better, free, and open-source, featuring custom icons, image carousels, looping video support, and more. Build your own link in bio page, portfolio, blog, or simple landing page with LinkTower.
 
 ## ✨ Features
 
@@ -239,3 +237,7 @@ Whenever you add new icons to `src/siteConfig.json`, restart the Astro dev serve
 ## 📝 License
 
 This project is open source and available under the MIT License.
+
+## Attributions
+
+LinkTower is a portfolio-focused personal link hub built with Astro, forked from [Treelink](https://github.com/trevortylerlee/treelink) with enhanced features for developers and creatives.
