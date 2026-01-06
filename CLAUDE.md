@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) built with Astro. It's a personal website and link collection platform with an optional blog, featuring improved blog preview cards and a new default color scheme.
+Linktower is like Linktree but better, free, and open-source, featuring custom icons, image carousels, looping video support, and more. Build your own link in bio page, portfolio, blog, or simple landing page with LinkTower. Built with Astro, styled with Tailwind.
 
 ## Essential Commands
 
@@ -38,7 +38,6 @@ Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) b
 - **Blog routing**: Dynamic routes in `src/pages/blog/[...slug].astro`
 
 ### Theme System
-- **DaisyUI integration**: Uses DaisyUI's semantic color system with custom "treelink-light" and "treelink-dark" themes
 - **Automatic theme switching**: JavaScript automatically switches themes based on system preferences (prefers-color-scheme)
 - **Semantic colors**: Uses DaisyUI semantic classes like `bg-base-100`, `text-base-content`, `ring-base-300`
 - **Custom themes**: Defined in `tailwind.config.mjs` with colors matching the original design
@@ -60,10 +59,10 @@ Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) b
 3. Icons are automatically optimized based on usage in siteConfig.json
 
 ### Customizing Appearance
-- **Colors**: Modify DaisyUI theme definitions in `tailwind.config.mjs` 
+- **Colors**: Modify theme definitions in `tailwind.config.mjs` 
 - **Typography**: Uses Tailwind Typography plugin for blog content
-- **Layout**: Components use semantic DaisyUI classes for consistent theming
-- **Custom themes**: Add new themes to the daisyui.themes array in Tailwind config
+- **Layout**: Components use semantic classes for consistent theming
+- **Custom themes**: Add new themes to the themes array in Tailwind config
 
 ### Blog Management
 - **New posts**: Create folder in `src/content/blog/` with `index.md`
@@ -94,11 +93,11 @@ Treelink++ is a fork of [Treelink](https://github.com/trevortylerlee/treelink) b
 - `src/siteConfig.json` - All site content and configuration
 - `src/assets/profile-picture.jpg` - Profile image
 - `public/favicon.svg` - Favicon and related files
-- `tailwind.config.mjs` - DaisyUI themes and color definitions
+- `tailwind.config.mjs` - themes and color definitions
 - `src/styles/global.css` - Base styles and theme-specific gradients
 - `astro.config.mjs` - Site URL for production deployment
 
-## DaisyUI Theme Colors Used
+## Theme Colors Used
 
 - `base-100` - Primary background color
 - `base-200` - Secondary background (hover states)
