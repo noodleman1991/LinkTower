@@ -52,7 +52,7 @@
       "title": "Link with looping video",
       "url": "https://github.com/mitchell-wallace",
       "video": "hashi.mp4",
-      "color": "secondary"
+      "color": "primary"
     },
     {
       "title": "Link with dark mode-aware image",
@@ -86,7 +86,7 @@
       "description": "Get the official LinkTower logo",
       "url": "/profile-picture.png",
       "icon": "image",
-      "color": "primary",
+      "color": "secondary",
       "download": true,
       "newTab": true
     }
