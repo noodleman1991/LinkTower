@@ -1,8 +1,8 @@
 {
-  "name": "LinkTower",
-  "bio": "Links, blog, and contact form.\nAll on your own domain.",
-  "profilePicture": "/profile-picture.png",
-  "roundProfilePicture": false,
+  "name": "אסתר לוקשינסקי",
+  "bio": "מלווה בתהליכי התפתחות אישית ברוח מיינדפולנס",
+  "profilePicture": "/EstherLockshinsky.jpg",
+  "roundProfilePicture": true,
   "url": "https://linktower.mitchellwallace.net",
   "language": "he",
   "direction": "rtl",
@@ -10,88 +10,51 @@
   "isBlogDisplayed": false,
   "blogHomePostLimit": 3,
   "contactFormEnabled": false,
-  "web3FormsAccessKey": "ac59967a-318d-4a10-b81e-dbdb45e9847a",
-  "umamiWebsiteId": "b2d83dc6-ec1f-4c8e-841e-398b99f38a12",
+  "web3FormsAccessKey": "",
+  "umamiWebsiteId": "",
   "iconLinks": [
     {
-      "id": "1728534577184",
-      "icon": "github",
-      "url": "https://github.com/mitchell-wallace",
+      "id": "facebook-icon",
+      "icon": "logos:facebook",
+      "url": "https://www.facebook.com/profile.php?id=61578346152629#",
       "color": "base"
     },
     {
-      "id": "1728534577186",
-      "icon": "linkedin",
-      "url": "https://www.linkedin.com/in/mitchell-wallace-dev/",
+      "id": "whatsapp-icon",
+      "icon": "logos:whatsapp-icon",
+      "url": "https://chat.whatsapp.com/GvGRnhp3wBRIeCM30ePSPB?mode=gi_t",
       "color": "base"
     },
     {
-      "id": "1728534577188",
-      "icon": "mail",
-      "url": "mailto:mitchell.wallace@outlook.com.au",
+      "id": "instagram-icon",
+      "icon": "logos:instagram-icon",
+      "url": "https://www.instagram.com/estherlockshinsky",
       "color": "base"
     }
   ],
   "customLinks": [
     {
-      "title": "Carousel Link",
-      "description": "A link with image carousel",
-      "url": "/blog/quotd?ref=home",
-      "icon": "link",
-      "color": "neutral",
-      "carouselImages": [
-        "/quotd-example.png",
-        "/quotd-example-2.png",
-        "/quotd-example-3.png",
-        "/quotd-example-4.png"
-      ],
-      "carouselImageAlts": [
-        "Example image 1",
-        "Example image 2",
-        "Example image 3",
-        "Example image 4"
-      ]
-    },
-    {
-      "title": "Link with looping video",
-      "url": "https://github.com/mitchell-wallace",
-      "video": "hashi.mp4",
-      "color": "primary"
-    },
-    {
-      "title": "Link with dark mode-aware image",
-      "description": "Image changes based on dark mode",
-      "url": "https://chronii.mitchellwallace.net",
-      "image": "/chronii-mockup-2.png",
-      "imageAlt": "Chronii app mockup (light)",
-      "imageDark": "/chronii-mockup-dark.png",
-      "imageAltDark": "Chronii app mockup (dark)",
+      "title": "פייסבוק",
+      "description": "עמוד הפייסבוק שלי",
+      "url": "https://www.facebook.com/profile.php?id=61578346152629#",
+      "icon": "logos:facebook",
       "color": "base",
       "newTab": true
     },
     {
-      "title": "My Personal Website",
-      "description": "Find my socials and posts",
-      "url": "https://mitchellwallace.net",
-      "newTab": true,
-      "icon": "megaphone",
-      "color": "base"
+      "title": "וואטסאפ",
+      "description": "הצטרפו לקבוצת המאושרות שלי בוואטסאפ",
+      "url": "https://chat.whatsapp.com/GvGRnhp3wBRIeCM30ePSPB?mode=gi_t",
+      "icon": "logos:whatsapp-icon",
+      "color": "base",
+      "newTab": true
     },
     {
-      "title": "My Dev Portfolio",
-      "description": "Check out my work",
-      "url": "https://mitchellwallace.dev",
-      "newTab": true,
-      "icon": "id-card",
-      "color": "base"
-    },
-    {
-      "title": "Download LinkTower Logo",
-      "description": "Get the official LinkTower logo",
-      "url": "/profile-picture.png",
-      "icon": "image",
-      "color": "secondary",
-      "download": true,
+      "title": "אינסטגרם",
+      "description": "עקבו אחרי באינסטגרם",
+      "url": "https://www.instagram.com/estherlockshinsky",
+      "icon": "logos:instagram-icon",
+      "color": "base",
       "newTab": true
     }
   ]

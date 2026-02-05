@@ -9,7 +9,12 @@
       "Bash(pnpm run:*)",
       "Bash(curl:*)",
       "Bash(pkill:*)",
-      "Bash(pnpm test:run:*)"
+      "Bash(pnpm test:run:*)",
+      "WebSearch",
+      "WebFetch(domain:solitreo.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:fonts.google.com)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
