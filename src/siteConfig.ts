@@ -8,6 +8,12 @@ export interface SiteConfiguration {
   /** Whether to show the profile picture as rounded. Defaults to true if not specified. */
   roundProfilePicture?: boolean;
   url: string;
+  /** Language code for the site (e.g., "en", "he"). Defaults to "en". */
+  language?: string;
+  /** Text direction: "ltr" or "rtl". Defaults to "ltr". */
+  direction?: "ltr" | "rtl";
+  /** Theme preference: "auto" follows system, or force "light", "dark", or "spiritual". */
+  theme?: "auto" | "light" | "dark" | "spiritual";
   isBlogDisplayed: boolean;
   /** How many blog posts to show on the homepage */
   blogHomePostLimit?: number;

@@ -6,7 +6,10 @@
       "Bash(ls:*)",
       "WebFetch(domain:daisyui.com)",
       "Bash(mv:*)",
-      "Bash(pnpm run:*)"
+      "Bash(pnpm run:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(pnpm test:run:*)"
     ],
     "deny": []
   }

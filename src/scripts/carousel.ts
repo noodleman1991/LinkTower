@@ -14,9 +14,14 @@ function initCarousel(container: HTMLElement) {
   const totalSlides = dots.length;
   let autoPlayInterval: number | null = null;
 
+  // Detect RTL mode
+  const isRTL = document.documentElement.dir === 'rtl';
+
   function goToSlide(index: number) {
     currentIndex = (index + totalSlides) % totalSlides;
-    (track as HTMLElement).style.transform = `translateX(-${currentIndex * 100}%)`;
+    // In RTL mode, we need positive translateX to move slides to the right
+    const translateValue = isRTL ? currentIndex * 100 : -currentIndex * 100;
+    (track as HTMLElement).style.transform = `translateX(${translateValue}%)`;
 
     dots.forEach((dot, i) => {
       dot.classList.toggle('active', i === currentIndex);

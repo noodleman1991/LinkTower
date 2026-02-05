@@ -20,6 +20,15 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.2
         version: 5.1.5(astro@4.16.18(@types/node@22.13.11)(rollup@4.53.2)(typescript@5.8.2))(tailwindcss@3.4.17)
+      '@fontsource/fredoka':
+        specifier: ^5.2.10
+        version: 5.2.10
+      '@fontsource/secular-one':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/solitreo':
+        specifier: ^5.2.7
+        version: 5.2.7
       astro:
         specifier: ^4.16.7
         version: 4.16.18(@types/node@22.13.11)(rollup@4.53.2)(typescript@5.8.2)
@@ -68,7 +77,7 @@ importers:
         version: 7.0.3
       daisyui:
         specifier: ^4.12.14
-        version: 4.12.24(postcss@8.5.3)
+        version: 4.12.24(postcss@8.5.6)
       happy-dom:
         specifier: ^20.0.10
         version: 20.0.10
@@ -604,6 +613,15 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/fredoka@5.2.10':
+    resolution: {integrity: sha512-DyzPCmTf0PkBbAu+gNvnPzfD/dYIXlyp+Zcb76jEQyt/vmRKGZgkH8FFF9W2sICDaA5p+GLk1XGFjWh5PPX+lg==}
+
+  '@fontsource/secular-one@5.2.8':
+    resolution: {integrity: sha512-ye9/+mpO2o/44fxSyJmU6UUZMIGdNVtI8VlzCBgFgdfchGawQJQfUZQ2maKMQ60D/Y+Nfb/Jhni21+dALoVX+g==}
+
+  '@fontsource/solitreo@5.2.7':
+    resolution: {integrity: sha512-bWajiVo0465JGBEU89SIA/X7qZyDIgwBO+oNb5BQduB3+sGwB/lVtcshQllNO2akcQR6DIk4h6/9Ad/BNab0/A==}
 
   '@iconify-json/fluent-emoji-flat@1.2.3':
     resolution: {integrity: sha512-dPvAidr4bQv8Esr77qNyD8V8yhtIDUirAQP6eHGeoqxpYVZTnGQ556NlBs4553cV4fjnK81t6eSBmPGPk+yUeA==}
@@ -3942,6 +3960,12 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
+  '@fontsource/fredoka@5.2.10': {}
+
+  '@fontsource/secular-one@5.2.8': {}
+
+  '@fontsource/solitreo@5.2.7': {}
+
   '@iconify-json/fluent-emoji-flat@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
@@ -4938,12 +4962,12 @@ snapshots:
 
   culori@3.3.0: {}
 
-  daisyui@4.12.24(postcss@8.5.3):
+  daisyui@4.12.24(postcss@8.5.6):
     dependencies:
       css-selector-tokenizer: 0.8.0
       culori: 3.3.0
       picocolors: 1.1.1
-      postcss-js: 4.0.1(postcss@8.5.3)
+      postcss-js: 4.0.1(postcss@8.5.6)
     transitivePeerDependencies:
       - postcss
 
@@ -6153,6 +6177,11 @@ snapshots:
     dependencies:
       camelcase-css: 2.0.1
       postcss: 8.5.3
+
+  postcss-js@4.0.1(postcss@8.5.6):
+    dependencies:
+      camelcase-css: 2.0.1
+      postcss: 8.5.6
 
   postcss-load-config@4.0.2(postcss@8.5.3):
     dependencies:

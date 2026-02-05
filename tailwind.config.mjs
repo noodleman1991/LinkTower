@@ -20,6 +20,11 @@ export default {
   },
   theme: {
     extend: {
+      fontFamily: {
+        solitreo: ['Solitreo', 'cursive'],
+        fredoka: ['Fredoka', 'sans-serif'],
+        secular: ['"Secular One"', 'sans-serif'],
+      },
       typography: {
         DEFAULT: {
           css: {

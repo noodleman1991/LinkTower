@@ -185,11 +185,11 @@ const carouselId = `carousel-${link.id}`;
   }
 
   .carousel-nav-btn.prev {
-    left: 0.5rem;
+    inset-inline-start: 0.5rem;
   }
 
   .carousel-nav-btn.next {
-    right: 0.5rem;
+    inset-inline-end: 0.5rem;
   }
 
   .carousel-container:hover .carousel-nav-btn {
@@ -244,6 +244,8 @@ const carouselId = `carousel-${link.id}`;
                   src={img}
                   alt={link.carouselImageAlts?.[index] || link.title}
                   class="w-full object-cover object-center aspect-[3/2]"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  decoding="async"
                   data-carousel-first={index === 0 ? "true" : undefined}
                 />
               </div>
@@ -284,11 +286,15 @@ const carouselId = `carousel-${link.id}`;
               src={link.image}
               alt={link.imageAlt || link.title}
               class="w-full object-cover object-center aspect-[3/2] dark:hidden"
+              loading="lazy"
+              decoding="async"
             />
             <img
               src={link.imageDark}
               alt={link.imageAltDark || link.imageAlt || link.title}
               class="w-full object-cover object-center aspect-[3/2] hidden dark:block"
+              loading="lazy"
+              decoding="async"
             />
           </>
         ) : (
@@ -296,6 +302,8 @@ const carouselId = `carousel-${link.id}`;
             src={link.image}
             alt={link.imageAlt || link.title}
             class="w-full object-cover object-center aspect-[3/2]"
+            loading="lazy"
+            decoding="async"
             onload="
               const ratio = this.naturalWidth / this.naturalHeight;
               if (ratio > 3/2) {

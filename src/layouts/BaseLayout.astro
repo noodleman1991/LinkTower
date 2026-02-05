@@ -1,9 +1,25 @@
 ---
 import "@/styles/global.css";
+import '@fontsource/solitreo/400.css';
+import '@fontsource/fredoka/400.css';
+import '@fontsource/fredoka/500.css';
+import '@fontsource/fredoka/600.css';
+import '@fontsource/secular-one/400.css';
 
 import BaseHead from "@/components/head/BaseHead.astro";
 import { ViewTransitions } from 'astro:transitions';
 import Footer from "@/components/sections/Footer.astro";
+import { SITE } from "@/siteConfig";
+
+const lang = SITE.language || "en";
+const dir = SITE.direction || "ltr";
+const configTheme = SITE.theme || "auto";
+
+// Determine initial theme for SSR
+const initialTheme = configTheme === "spiritual" ? "treelink-spiritual"
+  : configTheme === "dark" ? "treelink-dark"
+  : configTheme === "light" ? "treelink-light"
+  : "treelink-light"; // Default for auto (will be overridden by client script)
 
 const bodyClasses = [
   // Base styling - content container
@@ -16,7 +32,7 @@ const htmlClasses = [
 ].join(" ");
 ---
 
-<html lang="en" data-theme="treelink-light" class={htmlClasses}>
+<html lang={lang} dir={dir} data-theme={initialTheme} class={htmlClasses}>
   <BaseHead>
     <slot name="head" />
     <ViewTransitions />
@@ -27,25 +43,43 @@ const htmlClasses = [
     </main>
     <Footer />
     
-    <script>
-      // Automatically switch theme based on system preference
-      function setThemeFromSystem() {
+    <script is:inline define:vars={{ configTheme }}>
+      // Theme switching logic with support for spiritual theme
+      function setTheme() {
         const html = document.documentElement;
+
+        // If a specific theme is configured, use it
+        if (configTheme === 'spiritual') {
+          html.setAttribute('data-theme', 'treelink-spiritual');
+          return;
+        }
+        if (configTheme === 'light') {
+          html.setAttribute('data-theme', 'treelink-light');
+          return;
+        }
+        if (configTheme === 'dark') {
+          html.setAttribute('data-theme', 'treelink-dark');
+          return;
+        }
+
+        // Auto mode: follow system preference
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
           html.setAttribute('data-theme', 'treelink-dark');
         } else {
           html.setAttribute('data-theme', 'treelink-light');
         }
       }
-      
+
       // Set theme on initial load
-      setThemeFromSystem();
-      
-      // Listen for changes in system preference
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setThemeFromSystem);
+      setTheme();
+
+      // Only listen for system changes if in auto mode
+      if (configTheme === 'auto' || !configTheme) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+      }
 
       // Set theme on page transition
-      document.addEventListener('astro:after-swap', setThemeFromSystem);
+      document.addEventListener('astro:after-swap', setTheme);
     </script>
   </body>
 </html>
